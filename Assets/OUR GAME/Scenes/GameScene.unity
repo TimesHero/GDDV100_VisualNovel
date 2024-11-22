@@ -9316,7 +9316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Ash
-  nameColor: {r: 0.5571556, g: 0, b: 1, a: 1}
+  nameColor: {r: 0.36862746, g: 0.0627451, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: a115f7226bdf78f498fe543234866a45, type: 3}
@@ -9368,7 +9368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: You
-  nameColor: {r: 0, g: 0, b: 0, a: 1}
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 4b869d011e4363742a9cc5b8c55a6855, type: 3}
@@ -18926,6 +18926,7 @@ Transform:
   - {fileID: 1342583513}
   - {fileID: 599341808}
   - {fileID: 868815118}
+  - {fileID: 1458103827}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &977706544
@@ -18973,7 +18974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Jace
-  nameColor: {r: 0.044068456, g: 1, b: 0, a: 1}
+  nameColor: {r: 1, g: 0.37647063, b: 0.019607844, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: e740109b5556a4b45a66d65c817e7e57, type: 3}
@@ -19060,7 +19061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Vivi
-  nameColor: {r: 0.7990408, g: 1, b: 0, a: 1}
+  nameColor: {r: 0.007843138, g: 0.96470594, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 4b869d011e4363742a9cc5b8c55a6855, type: 3}
@@ -28759,7 +28760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Clara
-  nameColor: {r: 1, g: 0.32887805, b: 0, a: 1}
+  nameColor: {r: 1, g: 0.8196079, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: b477fe2eac30a4140a37afb4fdeefe1b, type: 3}
@@ -29103,6 +29104,31 @@ GameObject:
   - component: {fileID: 1416146538}
   - component: {fileID: 1416146537}
   - component: {fileID: 1416146541}
+  - component: {fileID: 1416146545}
+  - component: {fileID: 1416146544}
+  - component: {fileID: 1416146543}
+  - component: {fileID: 1416146542}
+  - component: {fileID: 1416146567}
+  - component: {fileID: 1416146566}
+  - component: {fileID: 1416146565}
+  - component: {fileID: 1416146564}
+  - component: {fileID: 1416146563}
+  - component: {fileID: 1416146562}
+  - component: {fileID: 1416146561}
+  - component: {fileID: 1416146560}
+  - component: {fileID: 1416146559}
+  - component: {fileID: 1416146558}
+  - component: {fileID: 1416146557}
+  - component: {fileID: 1416146556}
+  - component: {fileID: 1416146555}
+  - component: {fileID: 1416146554}
+  - component: {fileID: 1416146553}
+  - component: {fileID: 1416146552}
+  - component: {fileID: 1416146551}
+  - component: {fileID: 1416146550}
+  - component: {fileID: 1416146549}
+  - component: {fileID: 1416146547}
+  - component: {fileID: 1416146546}
   m_Layer: 0
   m_Name: Interrogation 1 Flowchart
   m_TagString: Untagged
@@ -29139,9 +29165,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 816.98944
-    y: -59.578964
-    width: 117.63811
+    x: 45.899776
+    y: -521.64624
+    width: 118
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29165,11 +29191,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 753.76465, y: 729.8488}
+  scrollPos: {x: 541.57007, y: 439.27325}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
-  zoom: 0.46324968
+  blockViewHeight: 648
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -29177,8 +29203,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1416146509}
-  selectedCommands: []
+  - {fileID: 1416146327}
+  selectedCommands:
+  - {fileID: 1416146334}
   variables:
   - {fileID: 1416146328}
   - {fileID: 1416146326}
@@ -29228,9 +29255,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: Newspaper text
+  storyText: '"Body Found in Don Valley River, Police Investigating - Toronto Star"
+
+'
   description: 
-  character: {fileID: 868815119}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -29255,9 +29284,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: Introduction text 1
+  storyText: It starts with the body. It always starts with the body. The river spat
+    them out at dawn, a cruel offering to the jagged rocks below the bridge where
+    they had once stood.
   description: 
-  character: {fileID: 868815119}
+  character: {fileID: 1458103828}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -29283,7 +29314,7 @@ MonoBehaviour:
   itemId: 2
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1416146354}
+  targetBlock: {fileID: 1416146293}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -29303,9 +29334,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 45.666748
-    y: -384.98383
-    width: 119.07722
+    x: 45.35096
+    y: -403.77325
+    width: 117
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29316,10 +29347,20 @@ MonoBehaviour:
   commandList:
   - {fileID: 1416146295}
   - {fileID: 1416146291}
+  - {fileID: 1416146545}
   - {fileID: 1416146296}
   - {fileID: 1416146290}
-  - {fileID: 1416146297}
+  - {fileID: 1416146566}
+  - {fileID: 1416146544}
+  - {fileID: 1416146543}
+  - {fileID: 1416146567}
+  - {fileID: 1416146542}
   - {fileID: 1416146294}
+  - {fileID: 1416146297}
+  - {fileID: 1416146565}
+  - {fileID: 1416146564}
+  - {fileID: 1416146563}
+  - {fileID: 1416146562}
   - {fileID: 1416146310}
   - {fileID: 1416146298}
   - {fileID: 1416146308}
@@ -29406,9 +29447,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: I be yapping still
+  storyText: 'You set the paper down, but the details stick. A body, tangled in the
+    rocks of the Don Valley River, found at dawn near the Lower Don Trail.
+
+
+'
   description: 
-  character: {fileID: 868815119}
+  character: {fileID: 1458103828}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -29462,7 +29507,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -246.60945
     y: -478.29382
-    width: 110.442566
+    width: 109
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29472,6 +29517,10 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1416146312}
+  - {fileID: 1416146553}
+  - {fileID: 1416146550}
+  - {fileID: 1416146551}
+  - {fileID: 1416146552}
   - {fileID: 1416146316}
   suppressAllAutoSelections: 0
 --- !u!114 &1416146300
@@ -29490,7 +29539,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -244.64616
     y: -429.8028
-    width: 111.881676
+    width: 110
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29500,6 +29549,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1416146311}
+  - {fileID: 1416146546}
+  - {fileID: 1416146547}
+  - {fileID: 1416146549}
   - {fileID: 1416146315}
   suppressAllAutoSelections: 0
 --- !u!114 &1416146301
@@ -29518,7 +29570,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -254.39688
     y: -529.97876
-    width: 116.199005
+    width: 116
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29528,6 +29580,10 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1416146313}
+  - {fileID: 1416146557}
+  - {fileID: 1416146556}
+  - {fileID: 1416146555}
+  - {fileID: 1416146554}
   - {fileID: 1416146317}
   suppressAllAutoSelections: 0
 --- !u!114 &1416146302
@@ -29544,9 +29600,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -252.21394
-    y: -578.00073
-    width: 119.07722
+    x: -256.1611
+    y: -587.2113
+    width: 118
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29556,6 +29612,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1416146314}
+  - {fileID: 1416146560}
+  - {fileID: 1416146559}
+  - {fileID: 1416146558}
   - {fileID: 1416146318}
   suppressAllAutoSelections: 0
 --- !u!114 &1416146303
@@ -29647,9 +29706,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: Whos file do you want to check?
+  storyText: Investigators have brought in 4 potential suspects.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1458103828}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -29722,7 +29781,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 12.615204
     y: -300.9211
-    width: 182.39801
+    width: 179
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29732,6 +29791,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1416146306}
+  - {fileID: 1416146561}
   - {fileID: 1416146307}
   - {fileID: 1416146303}
   - {fileID: 1416146304}
@@ -29779,7 +29839,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: Show Vivi Profile
+  storyText: " Vivi is an avid gamer who streams regularly and describes herself
+    as competitive and chaotic. She\u2019s looking for someone with a good sense
+    of humor and gaming skills."
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -29806,7 +29868,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: Show Ash Profile
+  storyText: Ash is quiet and introspective, describing themselves as someone who
+    enjoys late-night walks and deep conversations.
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -29833,7 +29896,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: Show Jace Profile
+  storyText: Jace is a high-energy, fitness-focused individual who spends most of
+    his time at the gym or hanging out with friends.
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -29860,7 +29924,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: Show Claras Profile
+  storyText: Clara describes herself as cheerful and down-to-earth, with a love for
+    outdoor activities like horseback riding and creek walks. She enjoys baking and
+    is looking for a kind, adventurous partner.
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -29971,7 +30037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  text: Go talk to suspects
+  text: Let's get this show on the road.
   description: 
   targetBlock: {fileID: 1416146327}
   hideIfVisited: 0
@@ -30043,7 +30109,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -6.598419
     y: -194.39926
-    width: 221.25394
+    width: 217
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30582,7 +30648,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -340.96548
     y: -313.21875
-    width: 156.49405
+    width: 154
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30734,9 +30800,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 17.993622
-    y: -40.69156
-    width: 176.64157
+    x: -30.577799
+    y: -44.977272
+    width: 173
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30819,7 +30885,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -613.0782
     y: -198.96661
-    width: 183.83711
+    width: 182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30896,7 +30962,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -586.0714
     y: -287.0423
-    width: 166.56781
+    width: 164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -31069,7 +31135,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -338.4556
     y: -245.81367
-    width: 150.73761
+    width: 150
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -31129,7 +31195,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -597.38806
     y: -243.82669
-    width: 165.1287
+    width: 164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -31296,7 +31362,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -357.39597
     y: -185.36017
-    width: 189.59355
+    width: 187
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32377,7 +32443,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -353.09152
     y: 54.61534
-    width: 186.71533
+    width: 185
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32610,7 +32676,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -588.7707
     y: 18.618408
-    width: 180.9589
+    width: 180
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32839,7 +32905,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -575.2131
     y: -74.15823
-    width: 162.25049
+    width: 162
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -33068,7 +33134,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -569.8682
     y: -27.263985
-    width: 163.68959
+    width: 162
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -33477,7 +33543,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -333.58524
     y: -20.147865
-    width: 147.8594
+    width: 148
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -33642,7 +33708,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -336.04257
     y: -91.45583
-    width: 153.61583
+    width: 152
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -34202,7 +34268,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 325.2218
     y: -154.26889
-    width: 180.9589
+    width: 178
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -34615,7 +34681,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 344.14368
     y: -211.32681
-    width: 142.10297
+    width: 141
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -34780,7 +34846,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 341.6338
     y: -278.7319
-    width: 147.8594
+    width: 145
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -35011,7 +35077,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 605.94995
     y: -165.29039
-    width: 175.20245
+    width: 173
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -35240,7 +35306,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 605.62317
     y: -249.36609
-    width: 157.93317
+    width: 155
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -35469,7 +35535,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 605.64
     y: -208.15048
-    width: 156.49405
+    width: 155
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -36519,7 +36585,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 597.7578
     y: 112.53749
-    width: 175.20245
+    width: 173
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -36748,7 +36814,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 597.431
     y: 28.461823
-    width: 157.93317
+    width: 155
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -36977,7 +37043,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 597.4479
     y: 69.67743
-    width: 156.49405
+    width: 155
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37442,7 +37508,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 318.15665
     y: 123.89989
-    width: 178.08067
+    width: 175
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37855,7 +37921,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 335.95175
     y: 66.5011
-    width: 142.10297
+    width: 141
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38020,7 +38086,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 333.44186
     y: -0.9040222
-    width: 147.8594
+    width: 145
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38160,7 +38226,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 21.273453
     y: 419.611
-    width: 168.00693
+    width: 164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38425,7 +38491,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 338.4806
     y: 323.9032
-    width: 153.61583
+    width: 154
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38693,7 +38759,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 141.24777
     y: 318.62247
-    width: 153.61583
+    width: 154
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38961,7 +39027,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -100.750496
     y: 314.5724
-    width: 159.37225
+    width: 161
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -39229,7 +39295,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -294.14835
     y: 312.9455
-    width: 162.25049
+    width: 163
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -39361,7 +39427,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 17.241888
     y: 209.1732
-    width: 144.98117
+    width: 145
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -39695,6 +39761,763 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1416146542
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 302
+  indentLevel: 0
+  storyText: "\"The area remains taped off as forensic teams work the scene. Police
+    are asking anyone who was near the trail Friday night to come forward with information.\r\""
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146543
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 301
+  indentLevel: 0
+  storyText: "\"Among the victim\u2019s belongings was a phone with threatening messages
+    sent from an untraceable number on the day of their death.\""
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146544
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 300
+  indentLevel: 0
+  storyText: "\"Police suspect foul play, noting that the victim may have gone off
+    the Riverdale Pedestrian Bridge under suspicious circumstances.\r\""
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146545
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 299
+  indentLevel: 0
+  storyText: "The papers call it an \u201Caccident\u201D. You know better."
+  description: 
+  character: {fileID: 1458103828}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146546
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 324
+  indentLevel: 0
+  storyText: 'Connection to Victim: Matched a month before the murder. Chats started
+    playful but turned into arguments over online behavior, which the victim reportedly
+    criticized.'
+  description: 
+  character: {fileID: 868815119}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146547
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 323
+  indentLevel: 0
+  storyText: 'Key Notes: Vivi is known for being outspoken and holding grudges in
+    both her gaming and personal circles. Her argument with the victim and the abrupt
+    end to her stream the night of the murder are notable.'
+  description: 
+  character: {fileID: 868815119}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146549
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 321
+  indentLevel: 0
+  storyText: "Alibi: Claims she was streaming during the incident, but her stream
+    logs show an unexpected cut-off midway through the night.\r"
+  description: 
+  character: {fileID: 868815119}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146550
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 320
+  indentLevel: 0
+  storyText: 'Key Notes: Friends describe Ash as generally reserved but occasionally
+    obsessive or emotional when feeling slighted'
+  description: 
+  character: {fileID: 868815119}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146551
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 319
+  indentLevel: 0
+  storyText: Their habit of nighttime walks could put them near the scene at the
+    time of the incident.
+  description: 
+  character: {fileID: 868815119}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146552
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 318
+  indentLevel: 0
+  storyText: 'Alibi: Claims they were out walking alone during the incident. No witnesses
+    have come forward to support this.'
+  description: 
+  character: {fileID: 868815119}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146553
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 317
+  indentLevel: 0
+  storyText: 'Connection to Victim: Matched two months prior. Conversations between
+    Ash and the victim were reportedly intense and emotional, with Ash expressing
+    feelings of loneliness.'
+  description: 
+  character: {fileID: 868815119}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146554
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 316
+  indentLevel: 0
+  storyText: 'Alibi: Claims he was at the gym during the time of the incident, but
+    his departure time is unclear, and no one has verified his story.'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146555
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 315
+  indentLevel: 0
+  storyText: 'Key Notes: Known for being competitive and occasionally hot-headed,
+    especially in sports. His physical strength and history of arguments with the
+    victim stand out.'
+  description: 
+  character: {fileID: 868815119}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146556
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 314
+  indentLevel: 0
+  storyText: 'Connection to Victim: Matched with the victim three weeks before the
+    murder. Their messages reportedly involved disagreements over motivation and
+    ambition.'
+  description: 
+  character: {fileID: 868815119}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146557
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 313
+  indentLevel: 0
+  storyText: He describes himself as drama-free and looking for someone to match
+    his active lifestyle.
+  description: 
+  character: {fileID: 868815119}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146558
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 312
+  indentLevel: 0
+  storyText: "Alibi: Says she was helping a neighbor with repairs the night of the
+    incident, but this hasn\u2019t been confirmed yet."
+  description: 
+  character: {fileID: 868815119}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146559
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 311
+  indentLevel: 0
+  storyText: 'Key Notes: Known to be friendly and outgoing, but acquaintances mention
+    she can be short-tempered when upset. The picnic plan and her proximity to the
+    park are notable details.'
+  description: 
+  character: {fileID: 868815119}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146560
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 310
+  indentLevel: 0
+  storyText: 'Connection to Victim: Matched with the victim a week before the murder.
+    Their chats included plans for a picnic at a park, possibly near the crime scene.'
+  description: 
+  character: {fileID: 868815119}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146561
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 309
+  indentLevel: 0
+  storyText: I should probably read up on the suspects first. I need to make sure
+    I have the facts straight.
+  description: 
+  character: {fileID: 868815119}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146562
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 308
+  indentLevel: 0
+  storyText: "The cops want answers. So do you. Because like it or not, this isn\u2019t
+    just a story anymore. It\u2019s your case now.\r"
+  description: 
+  character: {fileID: 1458103828}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146563
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 307
+  indentLevel: 0
+  storyText: "Dating apps, cryptic messages, it\u2019s a mess with too many loose
+    ends and no witnesses."
+  description: 
+  character: {fileID: 1458103828}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146564
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 306
+  indentLevel: 0
+  storyText: 'The cops call it homicide. Blunt force trauma to the back of the head,
+    likely pushed off the Riverdale Bridge late Friday night. '
+  description: 
+  character: {fileID: 1458103828}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146565
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 305
+  indentLevel: 0
+  storyText: "No ID, no name, just a shattered phone with threatening texts sent
+    from a burner the day they died.\r"
+  description: 
+  character: {fileID: 1458103828}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146566
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 304
+  indentLevel: 0
+  storyText: '"A cyclist on the Lower Don Trail discovered a body in the Don Valley
+    River early yesterday morning, sparking a homicide investigation."'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1416146567
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416146283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 303
+  indentLevel: 0
+  storyText: "Investigators are also exploring recent activity on dating apps for
+    leads.\" \r"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!1 &1458103826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1458103827}
+  - component: {fileID: 1458103828}
+  m_Layer: 0
+  m_Name: Narrator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1458103827
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458103826}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 934334976}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1458103828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458103826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Narrator
+  nameColor: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 4b869d011e4363742a9cc5b8c55a6855, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &1643645425
 GameObject:
   m_ObjectHideFlags: 0
@@ -39891,7 +40714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 392627961}
+  selectedFlowchart: {fileID: 1416146287}
 --- !u!4 &1709617458
 Transform:
   m_ObjectHideFlags: 1
