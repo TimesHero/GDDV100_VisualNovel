@@ -15,7 +15,6 @@
     QuitGame - Closes application
 ********************************************************************************************/
 
-using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -30,7 +29,7 @@ public class MainMenuManager : MonoBehaviour
     public GameObject Begin;
 
     public bool transition; 
-    public bool transitionout; 
+    public bool transitionOut; 
 
 
 
@@ -86,7 +85,7 @@ public class MainMenuManager : MonoBehaviour
 
      public void DeInterrogationTransition()
     {
-        transitionout = true;
+        transitionOut = true;
     }
 
     void Update(){
@@ -97,11 +96,11 @@ public class MainMenuManager : MonoBehaviour
                 transition=false;
             }
         }
-        if (transitionout==true){
-            Begin.transform.Translate(Vector3.down * 15 * Time.deltaTime);
-            Interview.transform.Translate(Vector3.up * 15 * Time.deltaTime);
-            if (Begin.transform.position.y < -10) {
-                transitionout=false;
+        if (transitionOut==true){
+            Begin.transform.Translate(Vector3.up * 15 * Time.deltaTime);
+            Interview.transform.Translate(Vector3.down * 15 * Time.deltaTime);
+            if (Interview.transform.position.y < -10) {
+                transitionOut=false;
                 Interview.transform.position = new Vector3(15f, 2.41f, -2.640564f);
                 Begin.transform.position = new Vector3(-15f, 0.9852f, -2.640564f);
             }
