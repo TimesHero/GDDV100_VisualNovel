@@ -848,6 +848,10 @@ MonoBehaviour:
   howToPlayPanel: {fileID: 0}
   settingsPanel: {fileID: 0}
   creditsPanel: {fileID: 0}
+  Interview: {fileID: 0}
+  Begin: {fileID: 0}
+  transition: 0
+  transitionout: 0
 --- !u!4 &426502169
 Transform:
   m_ObjectHideFlags: 0
@@ -12406,7 +12410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 392627961}
+  selectedFlowchart: {fileID: 4539089117745565211}
 --- !u!4 &1709617458
 Transform:
   m_ObjectHideFlags: 1
@@ -28273,7 +28277,7 @@ PrefabInstance:
       objectReference: {fileID: 4539089117745564856}
     - target: {fileID: 904079324159483235, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: value
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 920591317012538086, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: text
@@ -30212,23 +30216,23 @@ PrefabInstance:
       objectReference: {fileID: 4539089117745565211}
     - target: {fileID: 7058468372059406312, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: zoom
-      value: 0.97
+      value: 0.5800003
       objectReference: {fileID: 0}
     - target: {fileID: 7058468372059406312, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: scrollPos.x
-      value: 848.78674
+      value: 874.1236
       objectReference: {fileID: 0}
     - target: {fileID: 7058468372059406312, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: scrollPos.y
-      value: 308.90308
+      value: 446.3946
       objectReference: {fileID: 0}
     - target: {fileID: 7058468372059406312, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: blockViewHeight
-      value: 458
+      value: 426
       objectReference: {fileID: 0}
     - target: {fileID: 7058468372059406312, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: selectedBlocks.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7058468372059406312, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: selectedCommands.Array.size
@@ -30663,7 +30667,7 @@ PrefabInstance:
       objectReference: {fileID: 4539089117745564885}
     - target: {fileID: 7658698434124832202, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: value
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7704541484888570352, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -30927,7 +30931,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8719665436894751844, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: value
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8745618100360971504, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: text
@@ -31664,7 +31668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &4539089117745564742 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 470239158184384880, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1229976784434328642, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
   m_PrefabInstance: {fileID: 4539089117745564738}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 293659387}

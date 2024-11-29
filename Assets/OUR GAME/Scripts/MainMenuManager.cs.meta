@@ -3,7 +3,12 @@ guid: d8f5c1811cd2d73449d3f0a62282cce1
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - howToPlayPanel: {instanceID: 0}
+  - settingsPanel: {instanceID: 0}
+  - creditsPanel: {instanceID: 0}
+  - Interview: {fileID: 6270478351965778425, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+  - Begin: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
