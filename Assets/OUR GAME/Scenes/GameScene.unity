@@ -188,17 +188,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4357162 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6689487222313052056, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
-  m_PrefabInstance: {fileID: 3457663535231307053}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1442275590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &4357163 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1930051548414662077, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
@@ -260,7 +249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -739,14 +728,14 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
+  m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.14509805, g: 0.75686276, b: 0.8784314, a: 0.69803923}
-    m_PressedColor: {r: 0.078431375, g: 0.5137255, b: 0.6, a: 1}
-    m_SelectedColor: {r: 0.14509805, g: 0.75686276, b: 0.8784314, a: 0.69803923}
+    m_NormalColor: {r: 0.5754717, g: 0.5673282, b: 0.5673282, a: 1}
+    m_HighlightedColor: {r: 0.13333334, g: 0.7529412, b: 0.8784314, a: 0.69803923}
+    m_PressedColor: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 1}
+    m_SelectedColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 0.69803923}
     m_DisabledColor: {r: 0.5882353, g: 0.64705884, b: 0.6666667, a: 0.5019608}
-    m_ColorMultiplier: 2
+    m_ColorMultiplier: 5
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 21300000, guid: a986d2b0b7d27c04d81806b1f2301c95, type: 3}
@@ -777,14 +766,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.8627451}
+  m_Color: {r: 0.28235295, g: 0.28235295, b: 0.28235295, a: 0.8627451}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ac4dc82aa84dba8408da6a9db55501eb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6a782ac22cd90c1488551d986abe30df, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1059,14 +1048,14 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
+  m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.14509805, g: 0.75686276, b: 0.8784314, a: 0.69803923}
-    m_PressedColor: {r: 0.078431375, g: 0.5137255, b: 0.6, a: 1}
-    m_SelectedColor: {r: 0.14509805, g: 0.75686276, b: 0.8784314, a: 0.69803923}
+    m_NormalColor: {r: 0.5754717, g: 0.5673282, b: 0.5673282, a: 1}
+    m_HighlightedColor: {r: 0.13333334, g: 0.7529412, b: 0.8784314, a: 0.69803923}
+    m_PressedColor: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 1}
+    m_SelectedColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 0.69803923}
     m_DisabledColor: {r: 0.5882353, g: 0.64705884, b: 0.6666667, a: 0.5019608}
-    m_ColorMultiplier: 2
+    m_ColorMultiplier: 5
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 21300000, guid: a986d2b0b7d27c04d81806b1f2301c95, type: 3}
@@ -1097,14 +1086,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.8627451}
+  m_Color: {r: 0.28235295, g: 0.28235295, b: 0.28235295, a: 0.8627451}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ac4dc82aa84dba8408da6a9db55501eb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6a782ac22cd90c1488551d986abe30df, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1266,7 +1255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1749,14 +1738,14 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
+  m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.14509805, g: 0.75686276, b: 0.8784314, a: 0.69803923}
-    m_PressedColor: {r: 0.078431375, g: 0.5137255, b: 0.6, a: 1}
-    m_SelectedColor: {r: 0.14509805, g: 0.75686276, b: 0.8784314, a: 0.69803923}
+    m_NormalColor: {r: 0.5754717, g: 0.5673282, b: 0.5673282, a: 1}
+    m_HighlightedColor: {r: 0.13333334, g: 0.7529412, b: 0.8784314, a: 0.69803923}
+    m_PressedColor: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 1}
+    m_SelectedColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 0.69803923}
     m_DisabledColor: {r: 0.5882353, g: 0.64705884, b: 0.6666667, a: 0.5019608}
-    m_ColorMultiplier: 2
+    m_ColorMultiplier: 5
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 21300000, guid: a986d2b0b7d27c04d81806b1f2301c95, type: 3}
@@ -1787,14 +1776,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.8627451}
+  m_Color: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 0.8627451}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ac4dc82aa84dba8408da6a9db55501eb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6a782ac22cd90c1488551d986abe30df, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1970,7 +1959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3544,7 +3533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3702,7 +3691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9238,8 +9227,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 330
   indentLevel: 0
-  storyText: "\"Look, Jace, I\u2019m not saying you\u2019re involved, but something\u2019s
-    going down, and I need to know what you know.\""
+  storyText: "\"Look, {color=#FF6F1E}Jace{/color}, I\u2019m not saying you\u2019re
+    involved, but something\u2019s going down, and I need to know what you know.\""
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -9294,8 +9283,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 328
   indentLevel: 0
-  storyText: "\"Yeah, we matched on the app. They seemed real nice, but we didn\u2019t
-    get far. I guess life got in the way or somethin'.\""
+  storyText: "\"Yeah, we matched on the app. They seemed real nice, {color=#FFD100}but
+    we didn\u2019t get far.{/color} I guess life got in the way or somethin'.\""
   description: 
   character: {fileID: 1342583514}
   portrait: {fileID: 0}
@@ -9322,8 +9311,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 327
   indentLevel: 0
-  storyText: "\"Friday night, Clara. A cold breeze rolling through the city. Tell
-    me\u2014where were your boots planted?\""
+  storyText: "\"Friday night, {color=#FF6F1E}Clara{/color}. A cold breeze rolling
+    through the city. Tell me\u2014where were your boots planted?\""
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -9352,7 +9341,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\"Oh, sugar, I\u2019m just me. What you see is what you get\u2014ain\u2019t
     no secrets here. I\u2019m just a country girl tryin\u2019 to find my way in the
-    city. If somethin\u2019s important, I\u2019ll stand my ground.\"\n"
+    city. If {color=#FFD100}somethin\u2019s important, I\u2019ll stand my ground.{/color}\"\n"
   description: 
   character: {fileID: 1342583514}
   portrait: {fileID: 0}
@@ -9934,8 +9923,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 406
   indentLevel: 0
-  storyText: '"No, not really. It was quiet, like always. Just me, the stars, and
-    the sound of my own footsteps."'
+  storyText: '"No, {color=#671EFF}not really. It was quiet{/color}, like always.
+    Just me, the stars, and the sound of my own footsteps."'
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -9962,8 +9951,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 405
   indentLevel: 0
-  storyText: "\"Yeah, sometimes. It\u2019s on my usual route, but it depends on the
-    night. Occasionally, I'll avoid it if I\u2019m not in the mood.\""
+  storyText: "\"Yeah, sometimes. {color=#671EFF}It\u2019s on my usual route{/color},
+    but it depends on the night. Occasionally, {color=#671EFF}I'll avoid it if I\u2019m
+    not in the mood{/color}.\""
   description: 
   character: {fileID: 599341809}
   portrait: {fileID: 0}
@@ -9990,8 +9980,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 404
   indentLevel: 0
-  storyText: "\"I think they were looking for... something deeper. They wanted connection
-    or closure, but I couldn\u2019t really give them that.\""
+  storyText: "\"I think they were looking for... something deeper.{color=#671EFF}
+    They wanted connection or closure, but I couldn\u2019t really give them that.{/color}\""
   description: 
   character: {fileID: 599341809}
   portrait: {fileID: 0}
@@ -10018,8 +10008,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 403
   indentLevel: 0
-  storyText: "\"They cancelled. Somethin\u2019 about work gettin\u2019 in the way,
-    I didn\u2019t mind. Figured we could reschedule, but it never happened.\""
+  storyText: "\"{color=#FFD100}They cancelled.{/color} Somethin\u2019 about work
+    gettin\u2019 in the way, I didn\u2019t mind. Figured we could reschedule, but
+    it never happened.\""
   description: 
   character: {fileID: 1342583514}
   portrait: {fileID: 0}
@@ -10046,8 +10037,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 402
   indentLevel: 0
-  storyText: "\"Oh, yeah, I think their husband stopped by at some point, and I\u2019m
-    pretty sure their kids were around. It wasn\u2019t just me and them.\""
+  storyText: "\"Oh, yeah, I think {color=#FFD100}their husband stopped by at some
+    point, and I\u2019m pretty sure their kids were around.{/color} It wasn\u2019t
+    just me and them.\""
   description: 
   character: {fileID: 1342583514}
   portrait: {fileID: 0}
@@ -10075,8 +10067,8 @@ MonoBehaviour:
   itemId: 401
   indentLevel: 0
   storyText: "\"I don\u2019t know, sugar. Sometimes you just get a feeling about
-    someone, you know? Like they\u2019re hidin\u2019 somethin\u2019 or not bein\u2019
-    entirely truthful. It\u2019s probably just me overthinkin\u2019.\""
+    someone, you know? Like {color=#FFD100}they\u2019re hidin\u2019 somethin\u2019
+    or not bein\u2019 entirely truthful.{/color} It\u2019s probably just me overthinkin\u2019.\""
   description: 
   character: {fileID: 1342583514}
   portrait: {fileID: 0}
@@ -10103,9 +10095,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 409
   indentLevel: 0
-  storyText: "\"I don\u2019t know, I guess I just didn\u2019t care enough to block
-    them. It wasn\u2019t that big a deal. Figured I\u2019d just let things fizzle
-    out.\""
+  storyText: "\"I don\u2019t know, I guess I just {color=#FF6F1E}didn\u2019t care
+    enough to block them{/color}. It wasn\u2019t that big a deal. Figured I\u2019d
+    just let things fizzle out.\""
   description: 
   character: {fileID: 977706546}
   portrait: {fileID: 0}
@@ -10132,8 +10124,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 408
   indentLevel: 0
-  storyText: "\"I went to grab some food and then headed home. I didn\u2019t talk
-    to anyone or do much after that.\""
+  storyText: "\"I went to {color=#FF6F1E}grab some food and then headed home. I didn\u2019t
+    talk to anyone{/color} or do much after that.\""
   description: 
   character: {fileID: 977706546}
   portrait: {fileID: 0}
@@ -10160,8 +10152,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 407
   indentLevel: 0
-  storyText: "\"They were just kinda... all over the place, y'know? Couldn\u2019t
-    stick to one thing. I like people who know what they want.\""
+  storyText: "\"They were just kinda... {color=#FF6F1E}all over the place, y'know?
+    Couldn\u2019t stick to one thing{/color}. I like people who know what they want.\""
   description: 
   character: {fileID: 977706546}
   portrait: {fileID: 0}
@@ -10189,8 +10181,9 @@ MonoBehaviour:
   itemId: 411
   indentLevel: 0
   storyText: "\"Yeah, they did. Said I was wasting my time or something like that.
-    I\u2019m used to people not understanding, but it kinda struck a nerve. This
-    is my entire career you know? I just hate it when people don't understand.\""
+    I\u2019m used to people not understanding, but {color=#06FF00}it kinda struck
+    a nerve{/color}. This is my entire career you know? {color=#06FF00}I just hate
+    it when people don't understand.{/color}\""
   description: 
   character: {fileID: 1129267545}
   portrait: {fileID: 0}
@@ -10217,8 +10210,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 410
   indentLevel: 0
-  storyText: "\"I don\u2019t know. It just cut off, and I was too frustrated to deal
-    with it, so I just logged off and went to bed. It\u2019s not that deep.\""
+  storyText: "\"I don\u2019t know. It just cut off, and {color=#06FF00}I was too
+    frustrated to deal with it{/color}, so I just logged off and went to bed. It\u2019s
+    not that deep.\""
   description: 
   character: {fileID: 1129267545}
   portrait: {fileID: 0}
@@ -10246,7 +10240,8 @@ MonoBehaviour:
   itemId: 412
   indentLevel: 0
   storyText: "\"Of course. I work my ass off, and people like them think it\u2019s
-    a joke. It gets old after a while, you know? I'm just sick of it.\""
+    a joke. It gets old after a while, you know? {color=#06FF00}I'm just sick of
+    it{/color}.\""
   description: 
   character: {fileID: 1129267545}
   portrait: {fileID: 0}
@@ -10330,8 +10325,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 441
   indentLevel: 0
-  storyText: "\"Alright, Nightshade. You\u2019re free, just make sure to keep those
-    arguments to a minimum.\""
+  storyText: "\"Alright, {color=#06FF00}Nightshade{/color}. You\u2019re free, just
+    make sure to keep those arguments to a minimum.\""
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -10414,8 +10409,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 438
   indentLevel: 0
-  storyText: "\"Alright, Clara. You\u2019re free to go. I'm sorry for dragging you
-    into this.\""
+  storyText: "\"Alright, {color=#FFD100}Clara{/color}. You\u2019re free to go. I'm
+    sorry for dragging you into this.\""
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -10445,33 +10440,6 @@ MonoBehaviour:
   storyText: '"Alright two left, The answer should become clear real soon."'
   description: 
   character: {fileID: 868815119}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1442275827
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1442275590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 443
-  indentLevel: 0
-  storyText: They leave the room...
-  description: 
-  character: {fileID: 1458103828}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -10725,7 +10693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 448
   indentLevel: 0
-  storyText: Clara leaves mildy confused.
+  storyText: '{i}{color=#FFD100}Clara{/color} leaves mildy confused.'
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
@@ -13398,8 +13366,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 404
   indentLevel: 0
-  storyText: "\"I don\u2019t know. It was just the way they talked sometimes, like
-    they weren\u2019t tellin\u2019 the whole truth. It gave me the chills.\""
+  storyText: "\"I don\u2019t know. It was just the way they talked sometimes, {color=#FFD100}like
+    they weren\u2019t tellin\u2019 the whole truth.{/color} It gave me the chills.\""
   description: 
   character: {fileID: 1342583514}
   portrait: {fileID: 0}
@@ -13426,8 +13394,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 403
   indentLevel: 0
-  storyText: "\"No! At least, I don\u2019t think so. I mean, we didn\u2019t talk
-    long enough for that kind of thing to come up.\""
+  storyText: "\"No! At least, I don\u2019t think so. I mean, {color=#FFD100}we didn\u2019t
+    talk long enough{/color} for that kind of thing to come up.\""
   description: 
   character: {fileID: 1342583514}
   portrait: {fileID: 0}
@@ -13482,8 +13450,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 405
   indentLevel: 0
-  storyText: "\"No, not really. They\u2019d just say little things, like passive-aggressive
-    stuff. Nothing big, though.\""
+  storyText: "\"No, not really. They\u2019d just say little things,\r\n{color=#FF6F1E}\rlike
+    passive-aggressive stuff{/color}. Nothing big, though.\""
   description: 
   character: {fileID: 977706546}
   portrait: {fileID: 0}
@@ -13510,9 +13478,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 409
   indentLevel: 0
-  storyText: "I don\u2019t know. Sometimes when I walk, I just zone out. It\u2019s
-    like I\u2019m on autopilot. I like to listen to music while I walk so I get lost
-    in my own world. "
+  storyText: "I don\u2019t know. Sometimes when I walk, {color=#671EFF}I just zone
+    out. It\u2019s like I\u2019m on autopilot{/color}. I like to listen to music
+    while I walk so I get lost in my own world. "
   description: 
   character: {fileID: 599341809}
   portrait: {fileID: 0}
@@ -13567,9 +13535,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 408
   indentLevel: 0
-  storyText: "\"I guess I didn\u2019t want to hurt their feelings. It\u2019s hard
-    to say stuff like that without sounding cruel, you know? I might not dress and
-    act 'normally' but I'm not a monster.\""
+  storyText: "\"I guess {color=#671EFF}I didn\u2019t want to hurt their feelings{/color}.
+    It\u2019s hard to say stuff like that without sounding cruel, you know? I might
+    not dress and act 'normally' but I'm not a monster.\""
   description: 
   character: {fileID: 599341809}
   portrait: {fileID: 0}
@@ -13626,7 +13594,7 @@ MonoBehaviour:
   itemId: 406
   indentLevel: 0
   storyText: "\"I don\u2019t know, man. Sometimes stress just builds up, you know?
-    Work, life, all of it. Even the gym doesn\u2019t fix everything.\""
+    Work, life, all of it. {color=#FF6F1E}Even the gym doesn\u2019t fix everything{/color}.\""
   description: 
   character: {fileID: 977706546}
   portrait: {fileID: 0}
@@ -13654,8 +13622,8 @@ MonoBehaviour:
   itemId: 412
   indentLevel: 0
   storyText: "\"Yeah, I told them! I said it wasn\u2019t cool, but they just doubled
-    down, made it worse. I just couldn't take what they were saying anymore. They're
-    like an annoying NPC that won't shut up!\""
+    down, made it worse. {color=#06FF00}I just couldn't take what they were saying
+    anymore{/color}. They're like an annoying NPC that won't shut up!\""
   description: 
   character: {fileID: 1129267545}
   portrait: {fileID: 0}
@@ -13682,9 +13650,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 411
   indentLevel: 0
-  storyText: "\"Because it was just one more thing going wrong that day, okay?  I
-    hate it when tech problems mess with my flow, and with everything else going
-    on, I couldn\u2019t handle it anymore.\""
+  storyText: "\"Because it was {color=#06FF00}just one more thing going wrong{/color}
+    that day, okay?  I hate it when tech problems mess with my flow, and {color=#06FF00}with
+    everything else going on, I couldn\u2019t handle it anymore{/color}.\""
   description: 
   character: {fileID: 1129267545}
   portrait: {fileID: 0}
@@ -13711,8 +13679,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 413
   indentLevel: 0
-  storyText: "\"I don\u2019t know, okay? Maybe I stayed on for a bit, maybe I didn\u2019t.
-    I was too frustrated to keep track. It's all I could think about...\""
+  storyText: "\"I don\u2019t know, okay?{color=#06FF00} Maybe I stayed on for a bit,
+    maybe I didn\u2019t. I was too frustrated to keep track. It's all I could think
+    about...{/color}\""
   description: 
   character: {fileID: 1129267545}
   portrait: {fileID: 0}
@@ -14121,8 +14090,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 452
   indentLevel: 0
-  storyText: "\"Alright, Clara. You\u2019re free to go. I'm sorry for keeping you
-    here for so long.\""
+  storyText: "\"Alright, {color=#FFD100}Clara{/color}. You\u2019re free to go. I'm
+    sorry for keeping you here for so long.\""
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -14580,17 +14549,6 @@ MonoBehaviour:
   viviBg: {fileID: 1993104009}
   vivi: {fileID: 497869481}
   viviCutin: 0
---- !u!114 &1676024128 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7749320162490182457, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
-  m_PrefabInstance: {fileID: 1020745512584567563}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1545495202}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1676024129 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 549330715903304398, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
@@ -15471,8 +15429,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 407
   indentLevel: 0
-  storyText: '"No sugar, I didn''t go anywhere near that bridge. Besides, what reason
-    would I have to go there anyway?"'
+  storyText: '"No sugar, I {color=#FFD100}didn''t go anywhere near that bridge.{/color}
+    Besides, what reason would I have to go there anyway?"'
   description: 
   character: {fileID: 1342583514}
   portrait: {fileID: 0}
@@ -15528,7 +15486,7 @@ MonoBehaviour:
   itemId: 405
   indentLevel: 0
   storyText: "\"No! I swear, it was just a feeling I got from the way they talked.
-    I\u2019m not hiding anything!\""
+    {color=#FFD100}I\u2019m not hiding anything!{/color}\""
   description: 
   character: {fileID: 1342583514}
   portrait: {fileID: 0}
@@ -15555,8 +15513,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 415
   indentLevel: 0
-  storyText: '"What? Of course I had one, duh. In case someone blocks me on one account,
-    I can just use the other and become a whole new Vivi!"'
+  storyText: '"What? {color=#06FF00}Of course I had one, duh{/color}. In case someone
+    blocks me on one account, I can just use the other and become a whole new Vivi!"'
   description: 
   character: {fileID: 1129267545}
   portrait: {fileID: 0}
@@ -15614,7 +15572,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\"No! I swear, I didn\u2019t stop. I just walked past it\u2014I don\u2019t
     even remember being in that area that night. Sorry, I wish I knew something about
-    the bridge that night but I was on the other side. I never went on it.\""
+    the bridge that night but {color=#671EFF}I was on the other side. I never went
+    on it{/color}.\""
   description: 
   character: {fileID: 599341809}
   portrait: {fileID: 0}
@@ -15641,9 +15600,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 412
   indentLevel: 0
-  storyText: "\"No! I mean... I guess they talked about wanting more, but I didn\u2019t
-    snap. I just backed off. I figured it would be better to not get involved or
-    escalate anything.\""
+  storyText: "\"No! I mean... I guess they talked about wanting more, {color=#671EFF}but
+    I didn\u2019t snap. I just backed off{/color}. I figured it would be better to
+    not get involved or escalate anything.\""
   description: 
   character: {fileID: 599341809}
   portrait: {fileID: 0}
@@ -15670,9 +15629,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 411
   indentLevel: 0
-  storyText: "\"No! I wasn\u2019t hiding anything. We just didn\u2019t have that
-    deep of a connection and I try not to bog my mind with that kinda stuff. Out
-    of sight, out of mind.\""
+  storyText: "\"No! I wasn\u2019t hiding anything. {color=#671EFF}We just didn\u2019t
+    have that deep of a connection{/color} and I try not to bog my mind with that
+    kinda stuff. Out of sight, out of mind.\""
   description: 
   character: {fileID: 599341809}
   portrait: {fileID: 0}
@@ -15699,9 +15658,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 410
   indentLevel: 0
-  storyText: "\"No! It wasn\u2019t like that. I didn\u2019t care enough to block
-    them\u2014I didn't think it was that serious. Blocking is a big step you know,
-    and I'd feel kinda... bad.\""
+  storyText: "\"No! It wasn\u2019t like that. {color=#FF6F1E}I didn\u2019t care enough
+    to block them\u2014I didn't think it was that serious{/color}. Blocking is a
+    big step you know, and I'd feel kinda... bad.\""
   description: 
   character: {fileID: 977706546}
   portrait: {fileID: 0}
@@ -15728,8 +15687,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 409
   indentLevel: 0
-  storyText: "\"I\u2014I don\u2019t know. I guess I just forgot it. I didn\u2019t
-    think it mattered at the time! Besides, why does me having my phone even matter?\""
+  storyText: "\"I\u2014I don\u2019t know. I guess I just forgot it. {color=#FF6F1E}I
+    didn\u2019t think it mattered at the time!{/color} Besides, why does me having
+    my phone even matter?\""
   description: 
   character: {fileID: 977706546}
   portrait: {fileID: 0}
@@ -15756,8 +15716,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 408
   indentLevel: 0
-  storyText: "\"No man! I didn\u2019t even know where they were that night. It\u2019s
-    just a coincidence I swear!\""
+  storyText: "\"No man! {color=#FF6F1E}I didn\u2019t even know where they were that
+    night{/color}. It\u2019s just a coincidence I swear!\""
   description: 
   character: {fileID: 977706546}
   portrait: {fileID: 0}
@@ -15840,8 +15800,8 @@ MonoBehaviour:
   itemId: 418
   indentLevel: 0
   storyText: '"No! Those are PRIVATE, NO PEEKING! However, if you are DYING to know,
-    when I checked my logs that night, there was nothing wrong! Just my stream going
-    on all night!"'
+    when I checked my logs that night, {color=#06FF00}there was nothing wrong! Just
+    my stream going on all night{/color}!"'
   description: 
   character: {fileID: 1129267545}
   portrait: {fileID: 0}
@@ -15981,7 +15941,7 @@ MonoBehaviour:
   itemId: 477
   indentLevel: 0
   storyText: "\"You thought the river would hide everything, but it didn\u2019t,
-    Clara?\""
+    {color=#FFD100}Clara{/color}?\""
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -16009,8 +15969,8 @@ MonoBehaviour:
   itemId: 476
   indentLevel: 0
   storyText: "\"You cancelled the picnic because you knew you\u2019d never have it,
-    didn\u2019t you, Clara?! You couldn\u2019t stand the way the victim made you
-    feel\u2014like they saw right through your act.\""
+    didn\u2019t you, {color=#FFD100}Clara{/color}?! You couldn\u2019t stand the way
+    the victim made you feel\u2014like they saw right through your act.\""
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -16063,7 +16023,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67.820755
     y: 477.17752
-    width: 191.42853
+    width: 181.24994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16100,9 +16060,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 466
   indentLevel: 0
-  storyText: "Nightshade leaves from your interrogation with a sigh of relief, but
-    something doesn\u2019t sit right. Was she truly just an innocent gamer caught
-    in the wrong place at the wrong time? Or did you just let a murderer walk away?"
+  storyText: "{i}{color=#06FF00}Nightshade{/color} leaves from your interrogation
+    with a sigh of relief, but something doesn\u2019t sit right. Was she truly just
+    an innocent gamer caught in the wrong place at the wrong time? Or did you just
+    let a murderer walk away?"
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
@@ -16129,9 +16090,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 465
   indentLevel: 0
-  storyText: "Ash\u2019s quiet footsteps fade into the distance, but the weight of
-    his words linger. Was he just a loner caught up in something tragic? Or did you
-    just let a killer retreat into the shadows?"
+  storyText: "{i}{color=#671EFF}Ash\u2019s{/color} quiet footsteps fade into the
+    distance, but the weight of his words linger. Was he just a loner caught up in
+    something tragic? Or did you just let a killer retreat into the shadows?"
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
@@ -16158,9 +16119,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 464
   indentLevel: 0
-  storyText: "Jace leaves, his shoulders still tense, but there\u2019s something
-    about the way he avoids your gaze. Did you just let a man weighed down by guilt
-    walk free? Or was he truly just a guy with a bad temper and bad luck?"
+  storyText: "{i}{color=#FF6F1E}Jace{/color} leaves, his shoulders still tense, but
+    there\u2019s something about the way he avoids your gaze. Did you just let a
+    man weighed down by guilt walk free? Or was he truly just a guy with a bad temper
+    and bad luck?"
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
@@ -16187,9 +16149,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 463
   indentLevel: 0
-  storyText: You watch Clara walk out the door, her hands shaking slightly. Was she
-    just a harmless country gal caught in the wrong place at the wrong time? Or did
-    you just let a killer disappear into the night?
+  storyText: '{i}You watch {color=#FFD100}Clara{/color} walk out the door, her hands
+    shaking slightly. Was she just a harmless country gal caught in the wrong place
+    at the wrong time? Or did you just let a killer disappear into the night?'
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
@@ -16296,8 +16258,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 459
   indentLevel: 0
-  storyText: "\"Alright, Nightshade. I don\u2019t think you did this. Probably just
-    a robbery or some random act of violence. You\u2019re free to go.\""
+  storyText: "\"Alright, {color=#06FF00}Nightshade{/color}. I don\u2019t think you
+    did this. Probably just a robbery or some random act of violence. You\u2019re
+    free to go.\""
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -16356,7 +16319,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 615.5187
     y: 591.1169
-    width: 99.999985
+    width: 96.874985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17505,7 +17468,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 291.0721
     y: 384.42993
-    width: 139.99997
+    width: 137.49997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17620,8 +17583,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 433
   indentLevel: 0
-  storyText: "\"Alright, Ash. I don\u2019t think you did this. It\u2019s probably
-    just another senseless act of violence in the city. You can go.\""
+  storyText: "\"Alright, {color=#671EFF}Ash{/color}. I don\u2019t think you did this.
+    It\u2019s probably just another senseless act of violence in the city. You can
+    go.\""
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -17680,7 +17644,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 612.8657
     y: 547.5834
-    width: 99.999985
+    width: 96.874985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17792,8 +17756,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 427
   indentLevel: 0
-  storyText: "\"Alright, Jace. Your story holds up. This was likely just a robbery
-    gone wrong. You\u2019re free to leave.\""
+  storyText: "\"Alright, {color=#FF6F1E}Jace{/color}. Your story holds up. This was
+    likely just a robbery gone wrong. You\u2019re free to leave.\""
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -17852,7 +17816,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 609.13055
     y: 497.7937
-    width: 105.714264
+    width: 101.56248
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17964,8 +17928,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 421
   indentLevel: 0
-  storyText: "\"Alright, Clara. I believe you. This was probably just some random
-    act of violence, not your doing. You\u2019re free to go.\""
+  storyText: "\"Alright, {color=#FFD100}Clara{/color}. I believe you. This was probably
+    just some random act of violence, not your doing. You\u2019re free to go.\""
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -18024,7 +17988,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 609.10223
     y: 453.9034
-    width: 108.57141
+    width: 106.24997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18401,7 +18365,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 380.5596
     y: 670.7397
-    width: 78.57142
+    width: 78.124985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18442,7 +18406,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 381.7637
     y: 726.0037
-    width: 71.428566
+    width: 70.31249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18503,9 +18467,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 513
   indentLevel: 0
-  storyText: You can't win them all, but this time was a serious mistake. A murderer
-    is on the loose due to your incompetence, and now the public wants an inquiry
-    into every case you've ever touched.
+  storyText: '{i}You can''t win them all, but this time was a serious mistake. A
+    murderer is on the loose due to your incompetence, and now the public wants an
+    inquiry into every case you''ve ever touched.'
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
@@ -18532,8 +18496,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 512
   indentLevel: 0
-  storyText: "\"Detective Suspended Following Wrongful Arrest in Murder Case - Toronto
-    Star\r\"\n"
+  storyText: "\"{i}Detective Suspended Following Wrongful Arrest in Murder Case -
+    Toronto Star\r\"\n"
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
@@ -18560,7 +18524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 519
   indentLevel: 0
-  storyText: "\"Riverdale Park Murder Case Goes Cold, Killer Remains at Large\r\"\n"
+  storyText: "\"{i}Riverdale Park Murder Case Goes Cold, Killer Remains at Large\r\"\n"
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
@@ -19673,7 +19637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 617
   indentLevel: 0
-  storyText: The next day...
+  storyText: '{i}The next day...'
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
@@ -20405,7 +20369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -20666,14 +20630,14 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
+  m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.14509805, g: 0.75686276, b: 0.8784314, a: 0.69803923}
-    m_PressedColor: {r: 0.078431375, g: 0.5137255, b: 0.6, a: 1}
-    m_SelectedColor: {r: 0.14509805, g: 0.75686276, b: 0.8784314, a: 0.69803923}
+    m_NormalColor: {r: 0.5754717, g: 0.5673282, b: 0.5673282, a: 1}
+    m_HighlightedColor: {r: 0.13333334, g: 0.7529412, b: 0.8784314, a: 0.69803923}
+    m_PressedColor: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 1}
+    m_SelectedColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 0.69803923}
     m_DisabledColor: {r: 0.5882353, g: 0.64705884, b: 0.6666667, a: 0.5019608}
-    m_ColorMultiplier: 2
+    m_ColorMultiplier: 5
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 21300000, guid: a986d2b0b7d27c04d81806b1f2301c95, type: 3}
@@ -20704,14 +20668,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.8627451}
+  m_Color: {r: 0.28235295, g: 0.28235295, b: 0.28235295, a: 0.8627451}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ac4dc82aa84dba8408da6a9db55501eb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6a782ac22cd90c1488551d986abe30df, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21059,14 +21023,14 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
+  m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.14509805, g: 0.75686276, b: 0.8784314, a: 0.69803923}
-    m_PressedColor: {r: 0.078431375, g: 0.5137255, b: 0.6, a: 1}
-    m_SelectedColor: {r: 0.14509805, g: 0.75686276, b: 0.8784314, a: 0.69803923}
+    m_NormalColor: {r: 0.5754717, g: 0.5673282, b: 0.5673282, a: 1}
+    m_HighlightedColor: {r: 0.13333334, g: 0.7529412, b: 0.8784314, a: 0.69803923}
+    m_PressedColor: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 1}
+    m_SelectedColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 0.69803923}
     m_DisabledColor: {r: 0.5882353, g: 0.64705884, b: 0.6666667, a: 0.5019608}
-    m_ColorMultiplier: 2
+    m_ColorMultiplier: 5
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 21300000, guid: a986d2b0b7d27c04d81806b1f2301c95, type: 3}
@@ -21097,14 +21061,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.8627451}
+  m_Color: {r: 0.28235295, g: 0.28235295, b: 0.28235295, a: 0.8627451}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ac4dc82aa84dba8408da6a9db55501eb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6a782ac22cd90c1488551d986abe30df, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21563,7 +21527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 138662241343366039, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 182.68074
+      value: 187.98004
       objectReference: {fileID: 0}
     - target: {fileID: 138662241343366039, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -21604,11 +21568,11 @@ PrefabInstance:
     - target: {fileID: 330403998506680619, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: character
       value: 
-      objectReference: {fileID: 868815119}
+      objectReference: {fileID: 1458103828}
     - target: {fileID: 330403998506680619, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: storyText
-      value: He leaves. His demeanor is a bit more subdued. It's a little out of
-        character.
+      value: '{i}He leaves. His demeanor is a bit more subdued. It''s a little out
+        of character.'
       objectReference: {fileID: 0}
     - target: {fileID: 359012445706394895, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: character
@@ -21658,7 +21622,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549330715903304398, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 177.24301
+      value: 182.29015
       objectReference: {fileID: 0}
     - target: {fileID: 549330715903304398, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -21762,7 +21726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 943482795621531103, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 150.05432
+      value: 152.41818
       objectReference: {fileID: 0}
     - target: {fileID: 943482795621531103, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -21814,7 +21778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1349453388086004591, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 89.151695
+      value: 89.82929
       objectReference: {fileID: 0}
     - target: {fileID: 1349453388086004591, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -21878,7 +21842,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1467348505072933812, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 154.40451
+      value: 158.10808
       objectReference: {fileID: 0}
     - target: {fileID: 1467348505072933812, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -21926,11 +21890,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1512945408307433196, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.y
-      value: 295.40546
+      value: 294.1904
       objectReference: {fileID: 0}
     - target: {fileID: 1512945408307433196, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 90.23924
+      value: 91.25177
       objectReference: {fileID: 0}
     - target: {fileID: 1512945408307433196, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -21966,8 +21930,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 1583675215600146524, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: storyText
-      value: '"Jace, sorry for keeping this going so long but I need to follow up
-        with you regarding what you said earlier."'
+      value: "\"\r{color=#FF6F1E}\rJace{/color}, sorry for keeping this going so
+        long but I need to follow up with you regarding what you said earlier.\""
       objectReference: {fileID: 0}
     - target: {fileID: 1608254437974315522, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: character
@@ -21975,8 +21939,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 1608254437974315522, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: storyText
-      value: "\"Be honest, Clara. Did the victim ever make you feel like they didn\u2019t
-        trust you?\""
+      value: "\"Be honest, {color=#FFD100}Clara{/color}. Did the victim ever make
+        you feel like they didn\u2019t trust you?\""
       objectReference: {fileID: 0}
     - target: {fileID: 1657886306115510948, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: character
@@ -21984,7 +21948,7 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 1657886306115510948, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: storyText
-      value: He leaves, humming a familiar tune.
+      value: '{i}He leaves, humming a familiar tune.'
       objectReference: {fileID: 0}
     - target: {fileID: 1685413347397129794, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: tint.b
@@ -22016,7 +21980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1685413347397129794, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 176.15546
+      value: 179.4452
       objectReference: {fileID: 0}
     - target: {fileID: 1685413347397129794, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -22088,7 +22052,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1860073569592883086, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 97.85207
+      value: 96.941666
       objectReference: {fileID: 0}
     - target: {fileID: 1860073569592883086, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -22137,7 +22101,7 @@ PrefabInstance:
     - target: {fileID: 2133890452522749107, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: storyText
       value: "\"No, it\u2019s not like that. It\u2019s just a quiet place, too quiet
-        sometimes. I don\u2019t think we ever talked about it.\""
+        sometimes. {color=#671EFF}I don\u2019t think we ever talked about it{/color}.\""
       objectReference: {fileID: 0}
     - target: {fileID: 2330822629259536737, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: anyVar.variable
@@ -22171,7 +22135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2584259433790652040, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 97.85207
+      value: 98.364136
       objectReference: {fileID: 0}
     - target: {fileID: 2584259433790652040, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -22211,9 +22175,9 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 2585251280837107310, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: storyText
-      value: "Ash looks ready to crumble under the pressure, but there\u2019s nothing
-        solid to pin him down. His discomfort feels real, it feels more like fear
-        than guilt. "
+      value: "{i}{color=#671EFF}Ash{/color} looks ready to crumble under the pressure,
+        but there\u2019s nothing solid to pin him down. His discomfort feels real,
+        it feels more like fear than guilt. "
       objectReference: {fileID: 0}
     - target: {fileID: 2669117086864418589, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.x
@@ -22221,7 +22185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2669117086864418589, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 94.58943
+      value: 95.519196
       objectReference: {fileID: 0}
     - target: {fileID: 2669117086864418589, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -22253,7 +22217,7 @@ PrefabInstance:
       objectReference: {fileID: 1545495290}
     - target: {fileID: 2722303754729331241, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 90.23924
+      value: 91.25177
       objectReference: {fileID: 0}
     - target: {fileID: 2722303754729331241, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -22337,7 +22301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2880136452406765821, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 155.49207
+      value: 158.10808
       objectReference: {fileID: 0}
     - target: {fileID: 2880136452406765821, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -22390,11 +22354,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2943595377937810603, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 173.98038
+      value: 172.33282
       objectReference: {fileID: 0}
     - target: {fileID: 2943595377937810603, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2943595377937810603, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.data[2]
@@ -22423,9 +22387,13 @@ PrefabInstance:
     - target: {fileID: 2943595377937810603, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 1545495583}
+      objectReference: {fileID: 1020745512584568421}
     - target: {fileID: 2943595377937810603, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.data[9]
+      value: 
+      objectReference: {fileID: 1545495583}
+    - target: {fileID: 2943595377937810603, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+      propertyPath: commandList.Array.data[10]
       value: 
       objectReference: {fileID: 1545495582}
     - target: {fileID: 3023222485877274910, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
@@ -22442,8 +22410,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 3324724532440115731, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: storyText
-      value: '"Ash, sorry I know you don''t want to be here but I really need to
-        talk to you and follow up on some things."'
+      value: '"{color=#671EFF}Ash{/color}, sorry I know you don''t want to be here
+        but I really need to talk to you and follow up on some things."'
       objectReference: {fileID: 0}
     - target: {fileID: 3433534949673119202, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: character
@@ -22472,7 +22440,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3638947831071435310, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 154.40451
+      value: 158.10808
       objectReference: {fileID: 0}
     - target: {fileID: 3638947831071435310, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -22524,9 +22492,9 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 3944871982929121190, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: storyText
-      value: "Vivi\u2019s nerves are starting to show through her usual bravado.
-        Whether she\u2019s guilty or just hates being under scrutiny, she\u2019s
-        clearly ready to be anywhere but here."
+      value: "{i}{color=#06FF00}Vivi\u2019s{/color} nerves are starting to show through
+        her usual bravado. Whether she\u2019s guilty or just hates being under scrutiny,
+        she\u2019s clearly ready to be anywhere but here."
       objectReference: {fileID: 0}
     - target: {fileID: 4000546692343587685, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: portrait
@@ -22574,7 +22542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4544876423927151700, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 95.67698
+      value: 96.941666
       objectReference: {fileID: 0}
     - target: {fileID: 4544876423927151700, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -22602,19 +22570,19 @@ PrefabInstance:
       objectReference: {fileID: 1545495285}
     - target: {fileID: 4629005754124610815, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.x
-      value: -498.43448
+      value: -497.012
       objectReference: {fileID: 0}
     - target: {fileID: 4629005754124610815, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.y
-      value: 182.3789
+      value: 183.80138
       objectReference: {fileID: 0}
     - target: {fileID: 4629005754124610815, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 94.58943
+      value: 94.09672
       objectReference: {fileID: 0}
     - target: {fileID: 4629005754124610815, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4629005754124610815, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.data[1]
@@ -22639,7 +22607,7 @@ PrefabInstance:
     - target: {fileID: 4629005754124610815, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 1545495296}
+      objectReference: {fileID: 1020745512584568417}
     - target: {fileID: 4629005754124610815, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.data[7]
       value: 
@@ -22747,7 +22715,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5203709805616572579, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 158.7547
+      value: 160.95303
       objectReference: {fileID: 0}
     - target: {fileID: 5203709805616572579, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -22812,7 +22780,7 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 5672351407260757808, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: storyText
-      value: She stomps her way out the door.
+      value: '{i}She stomps her way out the door.'
       objectReference: {fileID: 0}
     - target: {fileID: 5708099392317503960, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.x
@@ -22824,7 +22792,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5708099392317503960, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 89.151695
+      value: 89.82929
       objectReference: {fileID: 0}
     - target: {fileID: 5708099392317503960, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -22910,7 +22878,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6191286416225415967, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 159.84225
+      value: 163.79797
       objectReference: {fileID: 0}
     - target: {fileID: 6191286416225415967, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -22962,7 +22930,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 6408002688260946754, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: storyText
-      value: '"No worries Ash, just please answer as best you can. Now..."'
+      value: '"No worries {color=#671EFF}Ash{/color}, just please answer as best
+        you can. Now..."'
       objectReference: {fileID: 0}
     - target: {fileID: 6413798218719854679, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: tint.b
@@ -22990,7 +22959,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6413798218719854679, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 185.94339
+      value: 190.825
       objectReference: {fileID: 0}
     - target: {fileID: 6413798218719854679, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -23046,7 +23015,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6437490219229039481, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 177.24301
+      value: 182.29015
       objectReference: {fileID: 0}
     - target: {fileID: 6437490219229039481, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -23098,23 +23067,23 @@ PrefabInstance:
       objectReference: {fileID: 1037179117}
     - target: {fileID: 6501465876727748611, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: zoom
-      value: 0.6130003
+      value: 0.7030002
       objectReference: {fileID: 0}
     - target: {fileID: 6501465876727748611, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: scrollPos.x
-      value: 570.0861
+      value: 499.2717
       objectReference: {fileID: 0}
     - target: {fileID: 6501465876727748611, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: scrollPos.y
-      value: 75.82852
+      value: -79.260666
       objectReference: {fileID: 0}
     - target: {fileID: 6501465876727748611, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: blockViewHeight
-      value: 542
+      value: 372
       objectReference: {fileID: 0}
     - target: {fileID: 6501465876727748611, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: selectedBlocks.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6501465876727748611, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: selectedCommands.Array.size
@@ -23123,11 +23092,11 @@ PrefabInstance:
     - target: {fileID: 6501465876727748611, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: selectedBlocks.Array.data[0]
       value: 
-      objectReference: {fileID: 1676024128}
+      objectReference: {fileID: 1020745512584568405}
     - target: {fileID: 6501465876727748611, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: selectedCommands.Array.data[0]
       value: 
-      objectReference: {fileID: 1020745512584567604}
+      objectReference: {fileID: 1545495570}
     - target: {fileID: 6501465876727748611, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: selectedCommands.Array.data[1]
       value: 
@@ -23256,9 +23225,9 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 6770740919912924599, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: storyText
-      value: "Clara\u2019s unease is palpable, but nothing she\u2019s said feels
-        concrete enough to keep her here. If she\u2019s guilty, she\u2019s doing
-        a damn good job of hiding it behind that nervous charm."
+      value: "{i}{color=#FFD100}Clara\u2019s{/color} unease is palpable, but nothing
+        she\u2019s said feels concrete enough to keep her here. If she\u2019s guilty,
+        she\u2019s doing a damn good job of hiding it behind that nervous charm."
       objectReference: {fileID: 0}
     - target: {fileID: 6894696652825432207, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: character
@@ -23291,7 +23260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6966697937195204799, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 163.10489
+      value: 166.64293
       objectReference: {fileID: 0}
     - target: {fileID: 6966697937195204799, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -23351,15 +23320,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7198566159405134644, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.y
-      value: 497.94037
+      value: 496.62976
       objectReference: {fileID: 0}
     - target: {fileID: 7198566159405134644, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 170.71773
+      value: 169.48788
       objectReference: {fileID: 0}
     - target: {fileID: 7198566159405134644, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7198566159405134644, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.data[2]
@@ -23388,9 +23357,13 @@ PrefabInstance:
     - target: {fileID: 7198566159405134644, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 1545495576}
+      objectReference: {fileID: 1020745512584568420}
     - target: {fileID: 7198566159405134644, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.data[9]
+      value: 
+      objectReference: {fileID: 1545495576}
+    - target: {fileID: 7198566159405134644, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+      propertyPath: commandList.Array.data[10]
       value: 
       objectReference: {fileID: 1545495575}
     - target: {fileID: 7246488797321966213, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
@@ -23423,28 +23396,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7481963598833370258, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 171.80527
+      value: 178.02272
       objectReference: {fileID: 0}
     - target: {fileID: 7481963598833370258, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7481963598833370258, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
-      propertyPath: commandList.Array.data[4]
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 1020745512584568399}
+    - target: {fileID: 7481963598833370258, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1020745512584568398}
+    - target: {fileID: 7481963598833370258, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+      propertyPath: commandList.Array.data[3]
       value: 
       objectReference: {fileID: 1545495887}
     - target: {fileID: 7481963598833370258, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
-      propertyPath: commandList.Array.data[5]
+      propertyPath: commandList.Array.data[4]
       value: 
       objectReference: {fileID: 1545495836}
     - target: {fileID: 7481963598833370258, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
-      propertyPath: commandList.Array.data[6]
+      propertyPath: commandList.Array.data[5]
       value: 
       objectReference: {fileID: 1545495805}
     - target: {fileID: 7481963598833370258, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
-      propertyPath: commandList.Array.data[7]
+      propertyPath: commandList.Array.data[6]
       value: 
       objectReference: {fileID: 1545495776}
+    - target: {fileID: 7481963598833370258, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+      propertyPath: commandList.Array.data[7]
+      value: 
+      objectReference: {fileID: 1545495747}
     - target: {fileID: 7481963598833370258, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.data[8]
       value: 
@@ -23467,7 +23452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7595422150984328846, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 98.93962
+      value: 99.78662
       objectReference: {fileID: 0}
     - target: {fileID: 7595422150984328846, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -23507,7 +23492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7749320162490182457, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 150.05432
+      value: 152.41818
       objectReference: {fileID: 0}
     - target: {fileID: 7749320162490182457, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -23559,7 +23544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7802227479785257100, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 146.79169
+      value: 146.72827
       objectReference: {fileID: 0}
     - target: {fileID: 7802227479785257100, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -23727,13 +23712,13 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 7882049567199800633, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: storyText
-      value: '"Clara? I have some things I''d like to follow up on if you don''t
-        mind."'
+      value: '"{color=#FFD100}Clara{/color}? I have some things I''d like to follow
+        up on if you don''t mind."'
       objectReference: {fileID: 0}
     - target: {fileID: 7978969901205643567, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: anyVar.variable
       value: 
-      objectReference: {fileID: 1416146457}
+      objectReference: {fileID: 1020745512584568416}
     - target: {fileID: 8097150612325119727, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: text
       value: 'What were you thinking about during your drive?
@@ -23750,7 +23735,7 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 8147026437859853639, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: storyText
-      value: Clara walks out to the waiting room.
+      value: '{i}{color=#FFD100}Clara{/color} walks out to the waiting room.'
       objectReference: {fileID: 0}
     - target: {fileID: 8183570791511144687, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: anyVar.variable
@@ -23758,7 +23743,7 @@ PrefabInstance:
       objectReference: {fileID: 1416146326}
     - target: {fileID: 8212886854803918516, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 89.151695
+      value: 88.406815
       objectReference: {fileID: 0}
     - target: {fileID: 8212886854803918516, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -23794,8 +23779,9 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 8256656607473786885, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: storyText
-      value: "Jace\u2019s tension is practically radiating off him, but his frustration
-        feels more like the result of being cornered than something darker."
+      value: "{i}{color=#FF6F1E}Jace\u2019s{/color} tension is practically radiating
+        off him, but his frustration feels more like the result of being cornered
+        than something darker."
       objectReference: {fileID: 0}
     - target: {fileID: 8305398877160074713, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: conditions.Array.data[0].anyVar.variable
@@ -23807,8 +23793,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 8430747437200440628, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: storyText
-      value: '"Vi- sigh, Xx_n1ghtshade_xX. Could you please come in again? I need
-        to follow up on some things you said."'
+      value: '"{color=#06FF00}Vi-{/color} {i}sigh{/i}, {color=#06FF00}Xx_n1ghtshade_xX{/color}.
+        Could you please come in again? I need to follow up on some things you said."'
       objectReference: {fileID: 0}
     - target: {fileID: 8691438098573656239, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: character
@@ -23856,7 +23842,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8981556247487123312, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 89.151695
+      value: 88.406815
       objectReference: {fileID: 0}
     - target: {fileID: 8981556247487123312, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -23892,11 +23878,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9022032648953699264, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 165.28
+      value: 163.79797
       objectReference: {fileID: 0}
     - target: {fileID: 9022032648953699264, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 9022032648953699264, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.data[2]
@@ -23933,9 +23919,13 @@ PrefabInstance:
     - target: {fileID: 9022032648953699264, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.data[10]
       value: 
-      objectReference: {fileID: 1545495562}
+      objectReference: {fileID: 1020745512584568418}
     - target: {fileID: 9022032648953699264, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.data[11]
+      value: 
+      objectReference: {fileID: 1545495562}
+    - target: {fileID: 9022032648953699264, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+      propertyPath: commandList.Array.data[12]
       value: 
       objectReference: {fileID: 1545495557}
     - target: {fileID: 9114066436893593824, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
@@ -23952,7 +23942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9184528890975835264, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 145.70415
+      value: 149.57324
       objectReference: {fileID: 0}
     - target: {fileID: 9184528890975835264, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
@@ -23980,11 +23970,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9187505391973225382, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: nodeRect.width
-      value: 165.28
+      value: 163.79797
       objectReference: {fileID: 0}
     - target: {fileID: 9187505391973225382, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.size
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 9187505391973225382, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.data[2]
@@ -24013,14 +24003,19 @@ PrefabInstance:
     - target: {fileID: 9187505391973225382, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 1545495569}
+      objectReference: {fileID: 1020745512584568419}
     - target: {fileID: 9187505391973225382, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       propertyPath: commandList.Array.data[9]
+      value: 
+      objectReference: {fileID: 1545495569}
+    - target: {fileID: 9187505391973225382, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+      propertyPath: commandList.Array.data[10]
       value: 
       objectReference: {fileID: 1545495568}
     m_RemovedComponents:
     - {fileID: 7720821877878091184, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
     - {fileID: 1247118247176976192, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+    - {fileID: 2734157830181365617, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -24480,6 +24475,21 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7310497584841267971, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1020745512584568341}
+    - targetCorrespondingSourceObject: {fileID: 7310497584841267971, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1020745512584568417}
+    - targetCorrespondingSourceObject: {fileID: 7310497584841267971, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1020745512584568421}
+    - targetCorrespondingSourceObject: {fileID: 7310497584841267971, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1020745512584568418}
+    - targetCorrespondingSourceObject: {fileID: 7310497584841267971, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1020745512584568420}
+    - targetCorrespondingSourceObject: {fileID: 7310497584841267971, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1020745512584568419}
   m_SourcePrefab: {fileID: 100100000, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
 --- !u!114 &1020745512584567564 stripped
 MonoBehaviour:
@@ -27056,7 +27066,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 341.2478
     y: 375.3306
-    width: 181.43483
+    width: 185.1351
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29111,7 +29121,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 5
     anyVar:
-      variable: {fileID: 4357158}
+      variable: {fileID: 1020745512584568416}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -29900,6 +29910,190 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1020745512584568372 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2880136452406765821, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+  m_PrefabInstance: {fileID: 1020745512584567563}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545495202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1020745512584568398 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6093476390064270118, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+  m_PrefabInstance: {fileID: 1020745512584567563}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545495202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1020745512584568399 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3211469884796859043, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+  m_PrefabInstance: {fileID: 1020745512584567563}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545495202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1020745512584568405 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9187505391973225382, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+  m_PrefabInstance: {fileID: 1020745512584567563}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545495202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1020745512584568416 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6477230576196171854, guid: 5920c78d15fe9044ba394322ad32f345, type: 3}
+  m_PrefabInstance: {fileID: 1020745512584567563}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545495202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1020745512584568417
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545495202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 753
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1020745512584568372}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1020745512584568418
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545495202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 755
+  indentLevel: 0
+  storyText: '{i}She leaves the room...'
+  description: 
+  character: {fileID: 1458103828}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1020745512584568419
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545495202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 757
+  indentLevel: 0
+  storyText: '{i}He leaves the room...'
+  description: 
+  character: {fileID: 1458103828}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1020745512584568420
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545495202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 756
+  indentLevel: 0
+  storyText: '{i}He leaves the room...'
+  description: 
+  character: {fileID: 1458103828}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1020745512584568421
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545495202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 754
+  indentLevel: 0
+  storyText: '{i}She leaves the room...'
+  description: 
+  character: {fileID: 1458103828}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1001 &3457663535231307053
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29914,7 +30108,7 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 107735372343989988, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: storyText
-      value: He sighs as he leaves the room.
+      value: '{i}He sighs as he leaves the room.'
       objectReference: {fileID: 0}
     - target: {fileID: 600585755609668235, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: portrait
@@ -29946,11 +30140,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 684090115242640657, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 170.30887
+      value: 172.51639
       objectReference: {fileID: 0}
     - target: {fileID: 684090115242640657, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 684090115242640657, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.data[2]
@@ -29979,9 +30173,13 @@ PrefabInstance:
     - target: {fileID: 684090115242640657, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 1442275774}
+      objectReference: {fileID: 3457663535231307431}
     - target: {fileID: 684090115242640657, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.data[9]
+      value: 
+      objectReference: {fileID: 1442275774}
+    - target: {fileID: 684090115242640657, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
+      propertyPath: commandList.Array.data[10]
       value: 
       objectReference: {fileID: 1442275773}
     - target: {fileID: 687556117161408321, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
@@ -30011,7 +30209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 734864109080794900, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 154.85635
+      value: 154.30449
       objectReference: {fileID: 0}
     - target: {fileID: 734864109080794900, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -30051,8 +30249,9 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 804703365574542483, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: storyText
-      value: "\"Clara, you mentioned the victim seemed \u2018off'. What exactly did
-        you mean by that? Something about them must have stood out to you.\""
+      value: "\"{color=#FFD100}Clara{/color}, you mentioned the victim seemed \u2018off'.
+        What exactly did you mean by that? Something about them must have stood out
+        to you.\""
       objectReference: {fileID: 0}
     - target: {fileID: 842979649427642171, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: character
@@ -30142,9 +30341,9 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 1107759410450209943, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: storyText
-      value: "Jace\u2019s frustration with the victim doesn\u2019t scream guilt.
-        And honestly? He doesn't seem to have the, uh... brainpower to do something
-        like this."
+      value: "{i}{color=#FF6F1E}Jace\u2019s{/color} frustration with the victim doesn\u2019t
+        scream guilt. And honestly? He doesn't seem to have the, uh... brainpower
+        to do something like this."
       objectReference: {fileID: 0}
     - target: {fileID: 1206777039284058944, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: anyVar.variable
@@ -30152,7 +30351,7 @@ PrefabInstance:
       objectReference: {fileID: 1416146457}
     - target: {fileID: 1240138171241478085, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.x
-      value: -232.45308
+      value: -234.1087
       objectReference: {fileID: 0}
     - target: {fileID: 1240138171241478085, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.y
@@ -30160,7 +30359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1240138171241478085, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 163.68637
+      value: 157.61574
       objectReference: {fileID: 0}
     - target: {fileID: 1240138171241478085, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -30212,8 +30411,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 1390094699055075408, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: storyText
-      value: '"Miss Nightshade, I know you have some things to do, but I have more
-        questions to ask you."'
+      value: '"Miss {color=#06FF00}Nightshade{/color}, I know you have some things
+        to do, but I have more questions to ask you."'
       objectReference: {fileID: 0}
     - target: {fileID: 1478982404493317271, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: targetBlock
@@ -30233,7 +30432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1511000941877323406, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 172.51639
+      value: 167.5495
       objectReference: {fileID: 0}
     - target: {fileID: 1511000941877323406, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -30281,7 +30480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1630906801496551828, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 153.75261
+      value: 150.99323
       objectReference: {fileID: 0}
     - target: {fileID: 1630906801496551828, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -30366,7 +30565,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1930051548414662077, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.x
-      value: 357.81238
+      value: 356.6682
       objectReference: {fileID: 0}
     - target: {fileID: 1930051548414662077, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.y
@@ -30382,7 +30581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1930051548414662077, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 176.93138
+      value: 174.172
       objectReference: {fileID: 0}
     - target: {fileID: 1930051548414662077, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -30452,9 +30651,9 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 2206867303856969783, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: storyText
-      value: "Vivi\u2019s sharp edge cuts through every question, but that doesn\u2019t
-        mean she\u2019s hiding anything. Maybe she\u2019s just too busy with her
-        own world to bother with someone else\u2019s."
+      value: "{i}{color=#06FF00}Vivi\u2019s{/color} sharp edge cuts through every
+        question, but that doesn\u2019t mean she\u2019s hiding anything. Maybe she\u2019s
+        just too busy with her own world to bother with someone else\u2019s."
       objectReference: {fileID: 0}
     - target: {fileID: 2212607935523165386, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: character
@@ -30489,7 +30688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2339168772879737916, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 158.1676
+      value: 155.96011
       objectReference: {fileID: 0}
     - target: {fileID: 2339168772879737916, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -30529,8 +30728,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 2374946837897274786, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: storyText
-      value: '"Jace, I know this might be frustrating but I do have more questions
-        for you."'
+      value: '"{color=#FF6F1E}Jace{/color}, I know this might be frustrating but
+        I do have more questions for you."'
       objectReference: {fileID: 0}
     - target: {fileID: 2380757720407541809, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: text
@@ -30544,7 +30743,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2430080189270569245, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 99.6688
+      value: 98.013176
       objectReference: {fileID: 0}
     - target: {fileID: 2430080189270569245, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -30592,7 +30791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2436674620464066117, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.y
-      value: 424.01044
+      value: 425.45135
       objectReference: {fileID: 0}
     - target: {fileID: 2436674620464066117, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: useCustomTint
@@ -30600,7 +30799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2436674620464066117, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 178.03513
+      value: 174.172
       objectReference: {fileID: 0}
     - target: {fileID: 2436674620464066117, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -30689,7 +30888,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2822287066348057572, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 89.73505
+      value: 91.39067
       objectReference: {fileID: 0}
     - target: {fileID: 2822287066348057572, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -30783,7 +30982,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3217516701984183146, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 174.72388
+      value: 172.51639
       objectReference: {fileID: 0}
     - target: {fileID: 3217516701984183146, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -30845,7 +31044,7 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 3447389176109327618, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: storyText
-      value: She leaves in a huff.
+      value: '{i}She leaves in a huff.'
       objectReference: {fileID: 0}
     - target: {fileID: 3496111199885970306, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: anyVar.variable
@@ -30893,7 +31092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3819005981292215180, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 88.63129
+      value: 89.73505
       objectReference: {fileID: 0}
     - target: {fileID: 3819005981292215180, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -30945,7 +31144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3953671736316500644, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 95.2538
+      value: 94.70192
       objectReference: {fileID: 0}
     - target: {fileID: 3953671736316500644, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -30986,10 +31185,10 @@ PrefabInstance:
     - target: {fileID: 4135986752603103057, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: character
       value: 
-      objectReference: {fileID: 868815119}
+      objectReference: {fileID: 1458103828}
     - target: {fileID: 4135986752603103057, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: storyText
-      value: You watch as he shadowboxes his way out of the room.
+      value: '{i}You watch as he shadowboxes his way out of the room.'
       objectReference: {fileID: 0}
     - target: {fileID: 4209188690640305223, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: character
@@ -30997,7 +31196,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 4209188690640305223, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: storyText
-      value: '"Clara? I have a few more questions for you. Please come back in."'
+      value: '"{color=#FFD100}Clara?{/color} I have a few more questions for you.
+        Please come back in."'
       objectReference: {fileID: 0}
     - target: {fileID: 4263242946883543354, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: character
@@ -31021,7 +31221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4378044473989576730, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 148.23386
+      value: 149.33762
       objectReference: {fileID: 0}
     - target: {fileID: 4378044473989576730, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -31195,7 +31395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5405361674174898239, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 186.86514
+      value: 180.79451
       objectReference: {fileID: 0}
     - target: {fileID: 5405361674174898239, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -31243,7 +31443,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5456768576264461462, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 97.4613
+      value: 96.357544
       objectReference: {fileID: 0}
     - target: {fileID: 5456768576264461462, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -31279,9 +31479,9 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 5500923300913343331, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: storyText
-      value: "Ash\u2019s cryptic nature doesn\u2019t make him guilty, but it sure
-        doesn\u2019t make him easy to read. Maybe he really is just a loner in the
-        wrong place at the wrong time."
+      value: "{i}{color=#671EFF}Ash\u2019s{/color} cryptic nature doesn\u2019t make
+        him guilty, but it sure doesn\u2019t make him easy to read. Maybe he really
+        is just a loner in the wrong place at the wrong time."
       objectReference: {fileID: 0}
     - target: {fileID: 5606596413407780326, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: character
@@ -31297,7 +31497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5744671720886591515, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 143.81885
+      value: 146.02635
       objectReference: {fileID: 0}
     - target: {fileID: 5744671720886591515, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -31457,19 +31657,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6008500682155567193, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: scrollPos.x
-      value: 858.9586
+      value: 810.94525
       objectReference: {fileID: 0}
     - target: {fileID: 6008500682155567193, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: scrollPos.y
-      value: 76.0048
+      value: 21.369116
       objectReference: {fileID: 0}
     - target: {fileID: 6008500682155567193, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: blockViewHeight
-      value: 537
+      value: 372
       objectReference: {fileID: 0}
     - target: {fileID: 6008500682155567193, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: selectedBlocks.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6008500682155567193, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: selectedCommands.Array.size
@@ -31478,11 +31678,11 @@ PrefabInstance:
     - target: {fileID: 6008500682155567193, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: selectedBlocks.Array.data[0]
       value: 
-      objectReference: {fileID: 4357162}
+      objectReference: {fileID: 3457663535231307363}
     - target: {fileID: 6008500682155567193, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: selectedCommands.Array.data[0]
       value: 
-      objectReference: {fileID: 1442276231}
+      objectReference: {fileID: 0}
     - target: {fileID: 6008500682155567193, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: selectedCommands.Array.data[1]
       value: 
@@ -31668,24 +31868,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6681012270024508044, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 148.23386
+      value: 147.68198
       objectReference: {fileID: 0}
     - target: {fileID: 6681012270024508044, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681012270024508044, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.data[0]
       value: 
-      objectReference: {fileID: 1442275827}
+      objectReference: {fileID: 1442275826}
     - target: {fileID: 6681012270024508044, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.data[1]
       value: 
-      objectReference: {fileID: 1442275826}
+      objectReference: {fileID: 1442275748}
     - target: {fileID: 6681012270024508044, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.data[2]
       value: 
-      objectReference: {fileID: 1442275748}
+      objectReference: {fileID: 1442275747}
     - target: {fileID: 6681012270024508044, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.data[3]
       value: 
@@ -31696,7 +31896,7 @@ PrefabInstance:
       objectReference: {fileID: 1442275747}
     - target: {fileID: 6689487222313052056, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 149.3376
+      value: 149.33762
       objectReference: {fileID: 0}
     - target: {fileID: 6689487222313052056, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -31732,7 +31932,7 @@ PrefabInstance:
       objectReference: {fileID: 1442276240}
     - target: {fileID: 6699249989232611745, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 94.15005
+      value: 94.70192
       objectReference: {fileID: 0}
     - target: {fileID: 6699249989232611745, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -31780,24 +31980,24 @@ PrefabInstance:
       objectReference: {fileID: 1129267545}
     - target: {fileID: 6813653975735051619, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: storyText
-      value: '"I told you it was Xx_n1ghtshade_xX! Let''s just get this over with,
-        don''t wanna keep my tier 3 subs waiting too long."'
+      value: '"I told you it was {color=#06FF00}Xx_n1ghtshade_xX{/color}! Let''s
+        just get this over with, don''t wanna keep my tier 3 subs waiting too long."'
       objectReference: {fileID: 0}
     - target: {fileID: 6832719404528828299, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.x
-      value: -94.877655
+      value: -92.979546
       objectReference: {fileID: 0}
     - target: {fileID: 6832719404528828299, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.y
-      value: 579.28284
+      value: 582.5941
       objectReference: {fileID: 0}
     - target: {fileID: 6832719404528828299, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 166.99762
+      value: 170.86075
       objectReference: {fileID: 0}
     - target: {fileID: 6832719404528828299, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 6832719404528828299, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.data[2]
@@ -31826,9 +32026,13 @@ PrefabInstance:
     - target: {fileID: 6832719404528828299, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 1442275766}
+      objectReference: {fileID: 3457663535231307429}
     - target: {fileID: 6832719404528828299, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.data[9]
+      value: 
+      objectReference: {fileID: 1442275766}
+    - target: {fileID: 6832719404528828299, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
+      propertyPath: commandList.Array.data[10]
       value: 
       objectReference: {fileID: 1442275765}
     - target: {fileID: 6854416845698633467, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
@@ -31841,7 +32045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6854416845698633467, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 87.52754
+      value: 89.73505
       objectReference: {fileID: 0}
     - target: {fileID: 6854416845698633467, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -31885,9 +32089,9 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 7066175495917195677, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: storyText
-      value: "\"Vivi, you seem like someone who works hard, and wants people to know
-        it. Do you ever feel like people\u2014maybe the victim\u2014don\u2019t respect
-        what you do?\""
+      value: "\"{color=#06FF00}Vivi{/color}, you seem like someone who works hard,
+        and wants people to know it. Do you ever feel like people\u2014maybe the
+        victim\u2014don\u2019t respect what you do?\""
       objectReference: {fileID: 0}
     - target: {fileID: 7191906712480765583, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: character
@@ -31907,7 +32111,7 @@ PrefabInstance:
       objectReference: {fileID: 1416146459}
     - target: {fileID: 7655882890809397783, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.x
-      value: 397.50293
+      value: 400.38477
       objectReference: {fileID: 0}
     - target: {fileID: 7655882890809397783, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.y
@@ -31915,11 +32119,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7655882890809397783, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 161.47887
+      value: 165.89388
       objectReference: {fileID: 0}
     - target: {fileID: 7655882890809397783, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7655882890809397783, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.data[2]
@@ -31956,9 +32160,13 @@ PrefabInstance:
     - target: {fileID: 7655882890809397783, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.data[10]
       value: 
-      objectReference: {fileID: 1442275750}
+      objectReference: {fileID: 3457663535231307430}
     - target: {fileID: 7655882890809397783, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.data[11]
+      value: 
+      objectReference: {fileID: 1442275750}
+    - target: {fileID: 7655882890809397783, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
+      propertyPath: commandList.Array.data[12]
       value: 
       objectReference: {fileID: 1442275745}
     - target: {fileID: 7838988330311892161, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
@@ -31983,7 +32191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7954534547314514235, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 154.85635
+      value: 150.99323
       objectReference: {fileID: 0}
     - target: {fileID: 7954534547314514235, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -32062,8 +32270,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 8138247595619481162, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: storyText
-      value: '"Ash, sorry to bother you again but I have some more questions for
-        you."'
+      value: '"{color=#671EFF}Ash{/color}, sorry to bother you again but I have some
+        more questions for you."'
       objectReference: {fileID: 0}
     - target: {fileID: 8270035498196002394, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: character
@@ -32080,7 +32288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8349730311721034116, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 90.83879
+      value: 91.39067
       objectReference: {fileID: 0}
     - target: {fileID: 8349730311721034116, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -32124,7 +32332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8488676663605330416, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.x
-      value: 153.56285
+      value: 175.086
       objectReference: {fileID: 0}
     - target: {fileID: 8488676663605330416, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.y
@@ -32132,11 +32340,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8488676663605330416, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 160.37512
+      value: 165.89388
       objectReference: {fileID: 0}
     - target: {fileID: 8488676663605330416, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8488676663605330416, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.data[1]
@@ -32169,9 +32377,13 @@ PrefabInstance:
     - target: {fileID: 8488676663605330416, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 1442275758}
+      objectReference: {fileID: 3457663535231307428}
     - target: {fileID: 8488676663605330416, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.data[9]
+      value: 
+      objectReference: {fileID: 1442275758}
+    - target: {fileID: 8488676663605330416, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
+      propertyPath: commandList.Array.data[10]
       value: 
       objectReference: {fileID: 1442275757}
     - target: {fileID: 8521003590439116810, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
@@ -32180,9 +32392,9 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 8521003590439116810, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: storyText
-      value: "Clara\u2019s sweetness still feels genuine. The cracks in her story
-        aren\u2019t enough to hold her here. Maybe she\u2019s telling the truth after
-        all..."
+      value: "{i}{color=#FFD100}Clara\u2019s{/color} sweetness still feels genuine.
+        The cracks in her story aren\u2019t enough to hold her here. Maybe she\u2019s
+        telling the truth after all..."
       objectReference: {fileID: 0}
     - target: {fileID: 8563789554605740308, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: anyVar.variable
@@ -32219,7 +32431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8762486422606370331, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 88.63129
+      value: 89.73505
       objectReference: {fileID: 0}
     - target: {fileID: 8762486422606370331, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -32283,7 +32495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8953902684176366576, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 183.5539
+      value: 179.13889
       objectReference: {fileID: 0}
     - target: {fileID: 8953902684176366576, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -32327,7 +32539,7 @@ PrefabInstance:
       objectReference: {fileID: 3457663535231307062}
     - target: {fileID: 9060799053938177409, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 98.56505
+      value: 96.357544
       objectReference: {fileID: 0}
     - target: {fileID: 9060799053938177409, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -32367,7 +32579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9135237700259735981, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: nodeRect.width
-      value: 160.37512
+      value: 155.96011
       objectReference: {fileID: 0}
     - target: {fileID: 9135237700259735981, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       propertyPath: commandList.Array.size
@@ -32463,9 +32675,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6504960463926012911, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1442275821}
-    - targetCorrespondingSourceObject: {fileID: 6504960463926012911, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1442275827}
     - targetCorrespondingSourceObject: {fileID: 6504960463926012911, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1442275826}
@@ -32880,6 +33089,18 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6504960463926012911, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3457663535231307350}
+    - targetCorrespondingSourceObject: {fileID: 6504960463926012911, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3457663535231307431}
+    - targetCorrespondingSourceObject: {fileID: 6504960463926012911, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3457663535231307430}
+    - targetCorrespondingSourceObject: {fileID: 6504960463926012911, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3457663535231307429}
+    - targetCorrespondingSourceObject: {fileID: 6504960463926012911, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3457663535231307428}
   m_SourcePrefab: {fileID: 100100000, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
 --- !u!114 &3457663535231307054 stripped
 MonoBehaviour:
@@ -33576,7 +33797,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 348.6884
     y: 491.87762
-    width: 196.26859
+    width: 192.3839
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -36243,6 +36464,125 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &3457663535231307363 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6681012270024508044, guid: 79bb5dd1217426d4899a34a4e9b4725c, type: 3}
+  m_PrefabInstance: {fileID: 3457663535231307053}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442275590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3457663535231307428
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442275590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 754
+  indentLevel: 0
+  storyText: '{i}He leaves the room...'
+  description: 
+  character: {fileID: 1458103828}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &3457663535231307429
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442275590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 753
+  indentLevel: 0
+  storyText: '{i}He leaves the room...'
+  description: 
+  character: {fileID: 1458103828}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &3457663535231307430
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442275590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 752
+  indentLevel: 0
+  storyText: '{i}She leaves the room...'
+  description: 
+  character: {fileID: 1458103828}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &3457663535231307431
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442275590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 751
+  indentLevel: 0
+  storyText: '{i}She leaves the room...'
+  description: 
+  character: {fileID: 1458103828}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1001 &4539089117745564738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36547,10 +36887,10 @@ PrefabInstance:
     - target: {fileID: 732349590766039952, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
       value: 
-      objectReference: {fileID: 868815119}
+      objectReference: {fileID: 1458103828}
     - target: {fileID: 732349590766039952, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: Ash leaves the room quietly.
+      value: '{i}{color=#671EFF}Ash{/color} leaves the room quietly.'
       objectReference: {fileID: 0}
     - target: {fileID: 758053062436254854, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -36558,9 +36898,13 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 758053062436254854, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: "\"Jace, you like keeping things simple, don\u2019t you? Gym, friends,
-        protein shakes. But let\u2019s get real\u2014what\u2019s hiding under all
-        that muscle?\""
+      value: "\"{color=#FF6F1E}Jace{/color}, you like keeping things simple, don\u2019t
+        you? Gym, friends, protein shakes. But let\u2019s get real\u2014what\u2019s
+        hiding under all that muscle?\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 818431086907936638, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: nodeRect.x
+      value: 607.3816
       objectReference: {fileID: 0}
     - target: {fileID: 818431086907936638, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.width
@@ -36624,11 +36968,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 964898055579659523, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.x
-      value: 23.025646
+      value: 15.867443
       objectReference: {fileID: 0}
     - target: {fileID: 964898055579659523, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.y
-      value: -319.2679
+      value: -316.40463
       objectReference: {fileID: 0}
     - target: {fileID: 964898055579659523, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.width
@@ -37216,8 +37560,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 1873235158998860147, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: He describes himself as drama-free, and looking for someone to match
-        his active lifestyle.
+      value: He describes himself as {color=#FF6F1E}drama-free{/color}, and looking
+        for someone to match his active lifestyle.
       objectReference: {fileID: 0}
     - target: {fileID: 1934359074342500415, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -37225,8 +37569,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 1934359074342500415, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: 'Alibi: Claims he was out walking alone during the incident. No witnesses
-        have come forward to support this.'
+      value: 'Alibi: Claims he was out {color=#671EFF}walking alone during the incident.
+        No witnesses{/color} have come forward to support this.'
       objectReference: {fileID: 0}
     - target: {fileID: 1938720687949156650, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: portrait
@@ -37273,9 +37617,9 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 2117677532598835798, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: "Vivi seems more concerned about her stream stats than covering up a
-        murder. Sure, she\u2019s got attitude, but \xAF\\_(\u30C4)_/\xAF. I don't
-        believe she committed this crime."
+      value: "{i}{color=#06FF00}Vivi?{/color} seems more concerned about her stream
+        stats than covering up a murder. Sure, she\u2019s got attitude, but \xAF\\_(\u30C4)_/\xAF.
+        I don't believe she committed this crime."
       objectReference: {fileID: 0}
     - target: {fileID: 2257881364451416837, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -37283,7 +37627,7 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 2257881364451416837, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: 'You set the paper down, but the details stick.
+      value: '{i}You set the paper down, but the details stick.
 
 
 '
@@ -37302,9 +37646,10 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 2327062172558237599, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: 'Key Notes: Vivi is known for being outspoken and holding grudges in
-        both her gaming and personal circles. Her argument with the victim, and the
-        abrupt end to her stream the night of the murder are notable.'
+      value: 'Key Notes: Vivi is known for being outspoken and {color=#06FF00}holding
+        grudges in both her gaming and personal circles{/color}. Her argument with
+        the victim, and {color=#06FF00}the abrupt end to her stream the night of
+        the murder are notable{/color}.'
       objectReference: {fileID: 0}
     - target: {fileID: 2444069876507181587, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.x
@@ -37358,6 +37703,12 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 868815119}
+    - target: {fileID: 2515319901141087799, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: storyText
+      value: 'Connection to Victim: Matched with the victim three weeks before the
+        murder. Their messages reportedly involved {color=#FF6F1E}disagreements over
+        motivation and ambition{/color}.'
+      objectReference: {fileID: 0}
     - target: {fileID: 2593522251851989159, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
       value: 
@@ -37384,6 +37735,12 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 868815119}
+    - target: {fileID: 2729960441969737644, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: storyText
+      value: 'Connection to Victim: Matched two months prior. Conversations between
+        Ash and the victim were {color=#671EFF}reportedly intense and emotional{/color},
+        with Ash expressing feelings of loneliness.'
+      objectReference: {fileID: 0}
     - target: {fileID: 2759536271516024581, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: text
       value: Tell me about yourself.
@@ -37394,7 +37751,7 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 2780273753308529407, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: The officers on scene suggest foul play. You know it to be true.
+      value: '{i}The officers on scene suggest foul play. You know it to be true.'
       objectReference: {fileID: 0}
     - target: {fileID: 2845092663667689773, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -37402,10 +37759,10 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 2845092663667689773, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: '"Body Found in Don Valley River, Police Investigating - Toronto Star"
+      value: '"{i}Body Found in Don Valley River, Police Investigating - Toronto
+        Star"
 
-        Threatening
-        messages. Dating apps. There''s a connection here.
+        Threatening messages. Dating apps. There''s a connection here.
 
 '
       objectReference: {fileID: 0}
@@ -37509,13 +37866,18 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 3428807830413081155, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: 'Key Notes: Friends describe Ash as generally reserved but occasionally
-        obsessive or emotional when feeling slighted.'
+      value: 'Key Notes: Friends describe Ash as {color=#671EFF}generally reserved
+        but occasionally obsessive or emotional{/color} when feeling slighted.'
       objectReference: {fileID: 0}
     - target: {fileID: 3437501524983522860, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 868815119}
+    - target: {fileID: 3437501524983522860, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: storyText
+      value: '{color=#FF6F1E}Jace{/color} is a high-energy, fitness-focused individual
+        who spends most of his time at the gym or hanging out with friends.'
+      objectReference: {fileID: 0}
     - target: {fileID: 3448677441273607584, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: portrait
       value: 
@@ -37567,7 +37929,7 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 3517295928829972283, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: "It\u2019s a mess with too many loose ends and no witnesses."
+      value: "{i}It\u2019s a mess with too many loose ends and no witnesses."
       objectReference: {fileID: 0}
     - target: {fileID: 3576497204788269398, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -37577,6 +37939,10 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 599341809}
+    - target: {fileID: 3628281734979419710, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: text
+      value: Clara's Profile
+      objectReference: {fileID: 0}
     - target: {fileID: 3797143607024239137, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: portrait
       value: 
@@ -37617,14 +37983,20 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 868815119}
+    - target: {fileID: 3894718176391441204, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: storyText
+      value: 'Key Notes: Known to be friendly and outgoing, but acquaintances mention
+        she can be {color=#FFD100}short-tempered{/color} when upset. The picnic plan
+        and her proximity to the park are notable details.'
+      objectReference: {fileID: 0}
     - target: {fileID: 3947470717534107394, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 1458103828}
     - target: {fileID: 3947470717534107394, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: "The cops want answers. As a detective, it\u2019s your case now.\r The
-        victim's dating app history is a good place to start."
+      value: "{i}The cops want answers. As a detective, it\u2019s your case now.\r
+        The victim's dating app history is a good place to start."
       objectReference: {fileID: 0}
     - target: {fileID: 3947935936993712876, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -37648,21 +38020,26 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 3975534179081920965, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: '"Alright, Clara could you come in please?"'
+      value: '"Alright, {color=#FFD100}Clara{/color} could you come in please?"'
       objectReference: {fileID: 0}
     - target: {fileID: 3980943247383565746, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 868815119}
+    - target: {fileID: 3980943247383565746, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: storyText
+      value: "Alibi: Claims she was streaming during the incident, but her stream
+        logs show {color=#06FF00}an unexpected cut-off midway through the night{/color}.\r"
+      objectReference: {fileID: 0}
     - target: {fileID: 3995477511825984263, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 1458103828}
     - target: {fileID: 3995477511825984263, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: "Jace might be all brawn, but he doesn\u2019t seem like the type to
-        get tangled up in a murder. His temper is a red flag, but maybe not enough
-        to incriminate him."
+      value: "{i}{color=#FF6F1E}Jace might be all brawn, but he doesn\u2019t seem
+        like the type to get tangled up in a murder. His temper is a red flag, but
+        maybe not enough to incriminate him."
       objectReference: {fileID: 0}
     - target: {fileID: 3999762076795479742, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.x
@@ -37714,8 +38091,8 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 4012940267785550795, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: It's not public yet, but the coroner's report says "Blunt force trauma
-        to the back of the head"
+      value: '{i}It''s not public yet, but the coroner''s report says "Blunt force
+        trauma to the back of the head"'
       objectReference: {fileID: 0}
     - target: {fileID: 4074597631483316529, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.x
@@ -37783,6 +38160,12 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 868815119}
+    - target: {fileID: 4274600566792493132, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: storyText
+      value: 'Connection to Victim: Matched a month before the murder. {color=#06FF00}Chats
+        started playful but turned into arguments over online behavior{/color}, which
+        the victim reportedly criticized.'
+      objectReference: {fileID: 0}
     - target: {fileID: 4408282470642748878, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.x
       value: 347.4164
@@ -37833,8 +38216,9 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 4423545939132176664, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: "Clara\u2019s sweetness seems genuine, and her story checks out\u2014mostly.
-        Maybe it\u2019s just not in her to be involved in something this dark."
+      value: "{i}{color=#FFD100}Clara\u2019s{/color} sweetness seems genuine, and
+        her story checks out\u2014mostly. Maybe it\u2019s just not in her to be involved
+        in something this dark."
       objectReference: {fileID: 0}
     - target: {fileID: 4488608086423863921, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -37842,9 +38226,9 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 4488608086423863921, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: Clara describes herself as cheerful and down-to-earth, with a love for
-        outdoor activities like horseback riding, and walks along the creek. She
-        enjoys baking, and is looking for a kind, adventurous partner.
+      value: '{color=#FFD100}Clara{/color}  describes herself as cheerful and down-to-earth,
+        with a love for outdoor activities like horseback riding, and walks along
+        the creek. She enjoys baking, and is looking for a kind, adventurous partner.'
       objectReference: {fileID: 0}
     - target: {fileID: 4491242579145397165, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: portrait
@@ -37877,7 +38261,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4687319364182844019, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.x
-      value: -101.972244
+      value: -100.12082
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687319364182844019, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: nodeRect.y
+      value: 313.35065
       objectReference: {fileID: 0}
     - target: {fileID: 4687319364182844019, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.width
@@ -37885,7 +38273,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4687319364182844019, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.size
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4687319364182844019, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.data[1]
@@ -37918,9 +38306,13 @@ PrefabInstance:
     - target: {fileID: 4687319364182844019, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 4539089117745564800}
+      objectReference: {fileID: 4539089117745566529}
     - target: {fileID: 4687319364182844019, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.data[9]
+      value: 
+      objectReference: {fileID: 4539089117745564800}
+    - target: {fileID: 4687319364182844019, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: commandList.Array.data[10]
       value: 
       objectReference: {fileID: 4539089117745564787}
     - target: {fileID: 4692583631274305685, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
@@ -37991,8 +38383,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 4936273858582781572, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: "\"You like to keep things quiet, don\u2019t you, Ash? Rain on glass,
-        long walks, dark corners. But quiet people still have noise\u2014what\u2019s
+      value: "\"You like to keep things quiet, don\u2019t you, {color=#671EFF}Ash{/color}?
+        Rain on glass, long walks, dark corners. But quiet people still have noise\u2014what\u2019s
         yours?\""
       objectReference: {fileID: 0}
     - target: {fileID: 5015848399916016880, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
@@ -38214,7 +38606,7 @@ PrefabInstance:
     - target: {fileID: 5403367594297132846, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
       value: "\"You matched with the victim. Words were exchanged. Sparks didn\u2019t
-        fly. So, Jace, what went wrong?\""
+        fly. So, {color=#FF6F1E}Jace{/color}, what went wrong?\""
       objectReference: {fileID: 0}
     - target: {fileID: 5418954703422529032, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -38243,9 +38635,9 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 5459673838040569855, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: " Vivi is an avid gamer who streams regularly and describes herself
-        as competitive, and chaotic. She\u2019s looking for someone with a good sense
-        of humor, and gaming skills."
+      value: "{color=#06FF00}Vivi{/color} is an avid gamer who streams regularly
+        and describes herself as competitive, and chaotic. She\u2019s looking for
+        someone with a good sense of humor, and gaming skills."
       objectReference: {fileID: 0}
     - target: {fileID: 5480799059136387548, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -38253,15 +38645,15 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 5480799059136387548, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: Clara leaves the room.
+      value: '{i}{color=#FFD100}Clara{/color} leaves the room.'
       objectReference: {fileID: 0}
     - target: {fileID: 5606117593173679662, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.x
-      value: 42.679905
+      value: 52.70139
       objectReference: {fileID: 0}
     - target: {fileID: 5606117593173679662, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.y
-      value: -521.8606
+      value: -511.67572
       objectReference: {fileID: 0}
     - target: {fileID: 5606117593173679662, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.width
@@ -38329,8 +38721,9 @@ PrefabInstance:
       objectReference: {fileID: 1342583514}
     - target: {fileID: 5619736699930230699, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: "\"Like I said, I was helpin\u2019 my neighbor fix up their barn door.
-        I stayed there late, and got home just before midnight. Nothin\u2019 unusual.\""
+      value: "\"Like I said, I was {color=#FFD100}helpin\u2019 my neighbor fix up
+        their barn door. I stayed there late, and got home just before midnight.{/color}
+        Nothin\u2019 unusual.\""
       objectReference: {fileID: 0}
     - target: {fileID: 5769528990623742951, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -38338,7 +38731,7 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 5769528990623742951, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: '"Jace, could you come in please?"'
+      value: '"{color=#FF6F1E}Jace{/color}, could you come in please?"'
       objectReference: {fileID: 0}
     - target: {fileID: 5977845315235598557, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.x
@@ -38458,7 +38851,7 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 6103293105216550260, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: A shattered phone with threatening texts.
+      value: '{i}A shattered phone with threatening texts.'
       objectReference: {fileID: 0}
     - target: {fileID: 6104588038681071940, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -38466,8 +38859,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 6104588038681071940, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: "Alibi: Says she was helping a neighbour with repairs the night of the
-        incident, but this hasn\u2019t been confirmed yet."
+      value: "Alibi: Says she was {color=#FFD100}helping a neighbour{/color} with
+        repairs the night of the incident, but this hasn\u2019t been confirmed yet."
       objectReference: {fileID: 0}
     - target: {fileID: 6131956327086956373, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: text
@@ -38508,7 +38901,7 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 6639526836395916591, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: Vivi exits the interrogation room.
+      value: '{i}{color=#06FF00}Vivi{/color} exits the interrogation room.'
       objectReference: {fileID: 0}
     - target: {fileID: 6714751584929688559, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: tint.b
@@ -38524,7 +38917,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6714751584929688559, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.x
-      value: 319.95862
+      value: 318.52698
       objectReference: {fileID: 0}
     - target: {fileID: 6714751584929688559, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.y
@@ -38624,7 +39017,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6826061672979199705, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.size
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6826061672979199705, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.data[1]
@@ -38657,7 +39050,7 @@ PrefabInstance:
     - target: {fileID: 6826061672979199705, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 4539089117745566346}
+      objectReference: {fileID: 0}
     - target: {fileID: 6840370782608051695, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.x
       value: 604.26263
@@ -38740,15 +39133,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7058468372059406312, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: scrollPos.x
-      value: 675.71124
+      value: 545.432
       objectReference: {fileID: 0}
     - target: {fileID: 7058468372059406312, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: scrollPos.y
-      value: 720.6498
+      value: 183.78455
       objectReference: {fileID: 0}
     - target: {fileID: 7058468372059406312, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: blockViewHeight
-      value: 544
+      value: 241
       objectReference: {fileID: 0}
     - target: {fileID: 7058468372059406312, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: selectedBlocks.Array.size
@@ -38761,11 +39154,11 @@ PrefabInstance:
     - target: {fileID: 7058468372059406312, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: selectedBlocks.Array.data[0]
       value: 
-      objectReference: {fileID: 4539089117745565828}
+      objectReference: {fileID: 4539089117745565728}
     - target: {fileID: 7058468372059406312, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: selectedCommands.Array.data[0]
       value: 
-      objectReference: {fileID: 4539089117745565032}
+      objectReference: {fileID: 0}
     - target: {fileID: 7058468372059406312, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: selectedCommands.Array.data[1]
       value: 
@@ -38840,7 +39233,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7063294833726835045, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.x
-      value: 339.70233
+      value: 345.4289
       objectReference: {fileID: 0}
     - target: {fileID: 7063294833726835045, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.width
@@ -38848,7 +39241,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7063294833726835045, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.size
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7063294833726835045, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.data[0]
@@ -38893,9 +39286,13 @@ PrefabInstance:
     - target: {fileID: 7063294833726835045, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.data[10]
       value: 
-      objectReference: {fileID: 4539089117745564790}
+      objectReference: {fileID: 4539089117745566531}
     - target: {fileID: 7063294833726835045, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.data[11]
+      value: 
+      objectReference: {fileID: 4539089117745564790}
+    - target: {fileID: 7063294833726835045, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: commandList.Array.data[12]
       value: 
       objectReference: {fileID: 4539089117745565840}
     - target: {fileID: 7063865955798134487, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
@@ -38997,7 +39394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7157000677488312862, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.size
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7157000677488312862, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.data[1]
@@ -39030,9 +39427,13 @@ PrefabInstance:
     - target: {fileID: 7157000677488312862, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 4539089117745564805}
+      objectReference: {fileID: 4539089117745566530}
     - target: {fileID: 7157000677488312862, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.data[9]
+      value: 
+      objectReference: {fileID: 4539089117745564805}
+    - target: {fileID: 7157000677488312862, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: commandList.Array.data[10]
       value: 
       objectReference: {fileID: 4539089117745564788}
     - target: {fileID: 7174761414967257264, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
@@ -39041,7 +39442,7 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 7174761414967257264, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: Jace leaves the room.
+      value: '{i}{color=#FF6F1E}Jace{/color} leaves the room.'
       objectReference: {fileID: 0}
     - target: {fileID: 7229818511413724275, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -39077,8 +39478,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 7334535040813766600, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: His habit of nighttime walks could put him near the scene at the time
-        of the incident.
+      value: His {color=#671EFF}habit of nighttime walks{/color} could put him near
+        the scene at the time of the incident.
       objectReference: {fileID: 0}
     - target: {fileID: 7359670306677335798, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -39130,7 +39531,7 @@ PrefabInstance:
       objectReference: {fileID: 4539089117745565971}
     - target: {fileID: 7432064047621153163, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.x
-      value: -348.88055
+      value: -350.14877
       objectReference: {fileID: 0}
     - target: {fileID: 7432064047621153163, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.y
@@ -39206,7 +39607,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 7537043110353481925, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: '"Vivi is it? Come in please, I have some things I''d like to ask you."'
+      value: '"{color=#06FF00}Vivi{/color} is it? Come in please, I have some things
+        I''d like to ask you."'
       objectReference: {fileID: 0}
     - target: {fileID: 7590198552158149897, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -39282,8 +39684,9 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 7729694886189513306, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: 'Alibi: Claims he was at the gym during the time of the incident, but
-        his departure time is unclear. No one has verified his story.'
+      value: 'Alibi: Claims he was {color=#FF6F1E}at the gym during the time of the
+        incident, but his departure time is unclear{/color}. No one has verified
+        his story.'
       objectReference: {fileID: 0}
     - target: {fileID: 8009139536746146680, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -39291,7 +39694,7 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 8009139536746146680, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: '"Ash, please come in. I have some questions."'
+      value: '"{color=#671EFF}Ash{/color}, please come in. I have some questions."'
       objectReference: {fileID: 0}
     - target: {fileID: 8077189176599782828, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.x
@@ -39357,9 +39760,9 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 8280388748575699781, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: 'Key Notes: Known for being competitive and occasionally hot-headed,
-        especially in sports. His physical strength, and history of arguments with
-        the victim stand out.'
+      value: 'Key Notes: Known for being {color=#FF6F1E}competitive and occasionally
+        hot-headed{/color}, especially in sports. His{color=#FF6F1E} physical strength,
+        and history of arguments{/color} with the victim stand out.'
       objectReference: {fileID: 0}
     - target: {fileID: 8304765285929187234, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -39397,8 +39800,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 8379650849048607486, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: Ash is quiet and introspective, describing himself as someone who enjoys
-        late-night walks and deep conversations.
+      value: '{color=#671EFF}Ash{/color} is quiet and introspective, describing himself
+        as someone who enjoys late-night walks and deep conversations.'
       objectReference: {fileID: 0}
     - target: {fileID: 8433482268894001488, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
@@ -39406,8 +39809,8 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 8433482268894001488, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: "Ash is too withdrawn to pull off something this violent, right? He's
-        an odd one, but odd doesn\u2019t equal guilt."
+      value: "{i}{color=#671EFF}Ash{/color} is too withdrawn to pull off something
+        this violent, right? He's an odd one, but odd doesn\u2019t equal guilt."
       objectReference: {fileID: 0}
     - target: {fileID: 8452181697971529456, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: spriteRenderer
@@ -39552,13 +39955,19 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 8501523197814982592, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: storyText
-      value: "\"Nightshade, huh? Streaming, gaming, always online. But let\u2019s
-        log off for a second\u2014who\u2019s behind the avatar?\""
+      value: "\"{color=#06FF00}Nightshade{/color}, huh? Streaming, gaming, always
+        online. But let\u2019s log off for a second\u2014who\u2019s behind the avatar?\""
       objectReference: {fileID: 0}
     - target: {fileID: 8569939043539372817, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 1458103828}
+    - target: {fileID: 8569939043539372817, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: storyText
+      value: '{i}It starts with the body. It always starts with the body. The river
+        spat them out at dawn, a cruel offering to the jagged rocks below the bridge
+        where they had once stood.'
+      objectReference: {fileID: 0}
     - target: {fileID: 8587386312363101061, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
       value: 
@@ -39632,12 +40041,16 @@ PrefabInstance:
       value: 139.76048
       objectReference: {fileID: 0}
     - target: {fileID: 8972584292938323750, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: nodeRect.y
+      value: 319.8442
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972584292938323750, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.width
       value: 153.07816
       objectReference: {fileID: 0}
     - target: {fileID: 8972584292938323750, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.size
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8972584292938323750, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.data[2]
@@ -39662,15 +40075,25 @@ PrefabInstance:
     - target: {fileID: 8972584292938323750, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.data[7]
       value: 
-      objectReference: {fileID: 4539089117745564795}
+      objectReference: {fileID: 4539089117745566528}
     - target: {fileID: 8972584292938323750, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.data[8]
+      value: 
+      objectReference: {fileID: 4539089117745564795}
+    - target: {fileID: 8972584292938323750, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: commandList.Array.data[9]
       value: 
       objectReference: {fileID: 4539089117745564786}
     - target: {fileID: 8975256279574557948, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 868815119}
+    - target: {fileID: 8975256279574557948, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: storyText
+      value: 'Connection to Victim: Matched with the victim a week before the murder.
+        Their chats included plans for a {color=#FFD100}picnic at a park{/color},
+        possibly near the crime scene.'
+      objectReference: {fileID: 0}
     - target: {fileID: 8981549325165559525, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: portrait
       value: 
@@ -39685,7 +40108,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9074441426413320372, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.y
-      value: 419.5696
+      value: 421.00125
       objectReference: {fileID: 0}
     - target: {fileID: 9074441426413320372, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: nodeRect.width
@@ -39693,20 +40116,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9074441426413320372, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9074441426413320372, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
-      propertyPath: commandList.Array.data[1]
-      value: 
-      objectReference: {fileID: 4539089117745565016}
-    - target: {fileID: 9074441426413320372, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
-      propertyPath: commandList.Array.data[2]
+      propertyPath: commandList.Array.data[0]
       value: 
       objectReference: {fileID: 4539089117745564778}
     - target: {fileID: 9074441426413320372, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 4539089117745564778}
+    - target: {fileID: 9074441426413320372, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9074441426413320372, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: commandList.Array.data[3]
       value: 
-      objectReference: {fileID: 4539089117745564783}
+      objectReference: {fileID: 0}
     - target: {fileID: 9167111655503225693, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       propertyPath: character
       value: 
@@ -39736,6 +40163,8 @@ PrefabInstance:
     - {fileID: 4542941964177856323, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
     - {fileID: 3955056792035872932, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
     - {fileID: 4244758294372617454, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+    - {fileID: 5316514733401598099, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+    - {fileID: 1099059800836936226, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -39811,9 +40240,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6270478351965778425, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4539089117745565012}
-    - targetCorrespondingSourceObject: {fileID: 6270478351965778425, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4539089117745565016}
     - targetCorrespondingSourceObject: {fileID: 6270478351965778425, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4539089117745565391}
@@ -40245,9 +40671,6 @@ PrefabInstance:
       addedObject: {fileID: 4539089117745566276}
     - targetCorrespondingSourceObject: {fileID: 6270478351965778425, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4539089117745566346}
-    - targetCorrespondingSourceObject: {fileID: 6270478351965778425, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 4539089117745566354}
     - targetCorrespondingSourceObject: {fileID: 6270478351965778425, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       insertIndex: -1
@@ -40384,6 +40807,18 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6270478351965778425, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4539089117745566464}
+    - targetCorrespondingSourceObject: {fileID: 6270478351965778425, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4539089117745566531}
+    - targetCorrespondingSourceObject: {fileID: 6270478351965778425, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4539089117745566530}
+    - targetCorrespondingSourceObject: {fileID: 6270478351965778425, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4539089117745566529}
+    - targetCorrespondingSourceObject: {fileID: 6270478351965778425, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4539089117745566528}
   m_SourcePrefab: {fileID: 100100000, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
 --- !u!114 &4539089117745564739 stripped
 MonoBehaviour:
@@ -40465,9 +40900,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 333
   indentLevel: 0
-  storyText: "\"Clara, you seem like someone who prides herself on honesty. So, tell
-    me: who\u2019s the Clara we don\u2019t see in the sunshine and pie contests?
-    What\u2019s under all that sugar?\""
+  storyText: "\"{color=#FFD100}Clara{/color}, you seem like someone who prides herself
+    on honesty. So, tell me: who\u2019s the Clara we don\u2019t see in the sunshine
+    and pie contests? What\u2019s under all that sugar?\""
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -40494,8 +40929,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 332
   indentLevel: 0
-  storyText: '"I was at the gym till about 10pm, then grabbed a bite, and crashed.
-    Pretty typical night for me."'
+  storyText: '"I was at the gym till {color=#FF6F1E}about 10pm{/color}, then grabbed
+    a bite, and crashed. Pretty typical night for me."'
   description: 
   character: {fileID: 977706546}
   portrait: {fileID: 0}
@@ -40523,8 +40958,8 @@ MonoBehaviour:
   itemId: 342
   indentLevel: 0
   storyText: '"Walking is how I clear my head at night. Always helps me think, you
-    know? I usually head out around midnight, just wander for a while. I think I
-    got back home around 1am."'
+    know? {color=#671EFF}I usually head out around midnight{/color}, just wander
+    for a while. I think I got {color=#671EFF}back home around 1am{/color}."'
   description: 
   character: {fileID: 599341809}
   portrait: {fileID: 0}
@@ -40551,8 +40986,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 341
   indentLevel: 0
-  storyText: "\"I don\u2019t know what you mean. I just... keep to myself. That\u2019s
-    all. Nothing dramatic, nothing complicated.\""
+  storyText: "\"I don\u2019t know what you mean. I just... {color=#671EFF}keep to
+    myself. That\u2019s all{/color}. Nothing dramatic, nothing complicated.\""
   description: 
   character: {fileID: 599341809}
   portrait: {fileID: 0}
@@ -40608,8 +41043,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 339
   indentLevel: 0
-  storyText: "\"We just didn\u2019t vibe, man. I\u2019m all about goals, and they
-    weren\u2019t really on the same page. Although sad, this stuff happen.\""
+  storyText: "\"We just didn\u2019t vibe, man. I\u2019m all about goals, and {color=#FF6F1E}they
+    weren\u2019t really on the same page{/color}. Although sad, this stuff does happen.\""
   description: 
   character: {fileID: 977706546}
   portrait: {fileID: 0}
@@ -40637,7 +41072,7 @@ MonoBehaviour:
   itemId: 338
   indentLevel: 0
   storyText: "\"Not much to tell. I just like living life in the moment, y\u2019know?
-    No drama, no games. That\u2019s just how I roll.\""
+    {color=#FF6F1E}No drama, no games{/color}. That\u2019s just how I roll.\""
   description: 
   character: {fileID: 977706546}
   portrait: {fileID: 0}
@@ -40692,17 +41127,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4539089117745564783 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1099059800836936226, guid: fbce55cded63dc147b7f5ca590acc374, type: 3}
-  m_PrefabInstance: {fileID: 4539089117745564738}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 293659387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &4539089117745564786 stripped
@@ -41170,8 +41594,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 343
   indentLevel: 0
-  storyText: "\"They were... interesting. We talked a lot, but I don\u2019t think
-    we really understood each other in the end.\""
+  storyText: "\"They were... interesting. We talked a lot, but {color=#671EFF}I don\u2019t
+    think we really understood each other{/color} in the end.\""
   description: 
   character: {fileID: 599341809}
   portrait: {fileID: 0}
@@ -41198,9 +41622,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 347
   indentLevel: 0
-  storyText: "\"I was streaming, yeah. But my stream cut out... something about my
-    connection. I logged off after that. Didn\u2019t think much of it, and assumed
-    it was the breakers.\""
+  storyText: "\"I was streaming, yeah. But {color=#06FF00}my stream cut out...{/color}
+    something about my connection. I logged off after that. Didn\u2019t think much
+    of it, and assumed it was the breakers.\""
   description: 
   character: {fileID: 1129267545}
   portrait: {fileID: 0}
@@ -41227,9 +41651,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 346
   indentLevel: 0
-  storyText: "\"Xx_n1ghtshade_xX actually, and it\u2019s not that deep, really. I
-    stream, I game, I laugh\u2014it\u2019s who I am. I\u2019m not sure what you\u2019re
-    fishing for here.\""
+  storyText: "\"{color=#06FF00}Xx_n1ghtshade_xX{/color} actually, and it\u2019s not
+    that deep, really. I stream, I game, I laugh\u2014it\u2019s who I am. {color=#06FF00}I\u2019m
+    not sure what you\u2019re fishing for here{/color}.\""
   description: 
   character: {fileID: 1129267545}
   portrait: {fileID: 0}
@@ -41337,8 +41761,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 363
   indentLevel: 0
-  storyText: "\"Alright, Nightshade. You\u2019re free to go. Don\u2019t let me catch
-    you back here, and stay off of those twitter arguments.\""
+  storyText: "\"Alright,{color=#06FF00}Nightshade{/color}. You\u2019re free to go.
+    Don\u2019t let me catch you back here, and stay off of those twitter arguments.\""
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -41365,8 +41789,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 362
   indentLevel: 0
-  storyText: "\"You can go, Ash. You don\u2019t seem like the kind of person who\u2019d
-    get his hands this dirty.\""
+  storyText: "\"You can go, {color=#671EFF}Ash{/color}. You don\u2019t seem like
+    the kind of person who\u2019d get his hands this dirty.\""
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -41393,8 +41817,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 361
   indentLevel: 0
-  storyText: "\"Alright, Jace. You can leave. Stay out of trouble, and don\u2019t
-    give me a reason to call you back.\""
+  storyText: "\"Alright, {color=#FF6F1E}Jace{i}. You can leave. Stay out of trouble,
+    and don\u2019t give me a reason to call you back.\""
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -41421,35 +41845,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 360
   indentLevel: 0
-  storyText: "\"Alright, Clara. You\u2019re free to go. You\u2019ve got no reason
-    to stay tangled up in this mess.\""
-  description: 
-  character: {fileID: 868815119}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &4539089117745565016
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 293659387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 364
-  indentLevel: 0
-  storyText: '"Phew... Let''s Just hope I made the right decision in who I let go."'
+  storyText: "\"Alright, {color=#FFD100}Clara.{/color} You\u2019re free to go. You\u2019ve
+    got no reason to stay tangled up in this mess.\""
   description: 
   character: {fileID: 868815119}
   portrait: {fileID: 0}
@@ -42697,8 +43094,8 @@ MonoBehaviour:
   itemId: 543
   indentLevel: 0
   storyText: "\"Yeah, we argued a bit. I'm no stranger to internet arguments but
-    they said some stuff about me that I didn\u2019t appreciate. I didn\u2019t think
-    it was a big deal, guess I was wrong, huh?\""
+    {color=#06FF00}they said some stuff about me that I didn\u2019t appreciate{/color}.
+    I didn\u2019t think it was a big deal, guess I was wrong, huh?\""
   description: 
   character: {fileID: 1129267545}
   portrait: {fileID: 0}
@@ -46153,24 +46550,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &4539089117745566346
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 293659387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 692
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 3
-  durationOLD: 0
 --- !u!114 &4539089117745566354
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -46712,7 +47091,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 238.05902
     y: 214.77309
-    width: 185.68553
+    width: 181.71097
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -47881,7 +48260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 737
   indentLevel: 0
-  storyText: A body, tangled in the rocks of the Don Valley River.
+  storyText: '{i}A body, tangled in the rocks of the Don Valley River.'
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
@@ -48145,7 +48524,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 863.5466
     y: 142.98663
-    width: 115.12905
+    width: 111.56056
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -48179,8 +48558,116 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 749
   indentLevel: 0
-  storyText: Investigators have brought in four potential suspects, all fairly recent
-    matches from the victim's dating file.
+  storyText: '{i}Investigators have brought in four potential suspects, all fairly
+    recent matches from the victim''s dating file.'
+  description: 
+  character: {fileID: 1458103828}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &4539089117745566528
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293659387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 753
+  indentLevel: 0
+  storyText: '{i}He leaves the room...'
+  description: 
+  character: {fileID: 1458103828}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &4539089117745566529
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293659387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 752
+  indentLevel: 0
+  storyText: '{i}He leaves the room...'
+  description: 
+  character: {fileID: 1458103828}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &4539089117745566530
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293659387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 751
+  indentLevel: 0
+  storyText: '{i}She leaves the room...'
+  description: 
+  character: {fileID: 1458103828}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &4539089117745566531
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293659387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 750
+  indentLevel: 0
+  storyText: '{i}She leaves the room...'
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
@@ -48281,9 +48768,10 @@ PrefabInstance:
       objectReference: {fileID: 1129267545}
     - target: {fileID: 78906958380692370, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: storyText
-      value: "\"Fine, I did it! It was me, Xx_n1ghtshade_xX! They just wouldn\u2019t
-        stop tearing me down, okay? I grabbed my keyboard \u2014 I didn\u2019t mean
-        to hurt them that bad, but they wouldn\u2019t shut up!\""
+      value: "\"Fine, I did it! It was me, {color=#06FF00}Xx_n1ghtshade_xX{/color}!
+        They just wouldn\u2019t stop tearing me down, okay? I grabbed my keyboard
+        \u2014 I didn\u2019t mean to hurt them that bad, but they wouldn\u2019t shut
+        up!\""
       objectReference: {fileID: 0}
     - target: {fileID: 158067696124210007, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: targetBlock
@@ -48299,8 +48787,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 178164023793434824, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: storyText
-      value: '"Jace, sorry for keeping you this long but I have one last set of questions
-        for you."'
+      value: '"{color=#FF6F1E}Jace{/color}, sorry for keeping you this long but I
+        have one last set of questions for you."'
       objectReference: {fileID: 0}
     - target: {fileID: 196870341482448661, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: text
@@ -48338,7 +48826,7 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 748321078706006814, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: storyText
-      value: "\"You didn\u2019t leave your phone at home to forget it, Jace\u2014you
+      value: "\"You didn\u2019t leave your phone at home to forget it, {color=#FF6F1E}Jace{/color}\u2014you
         left it because you didn\u2019t want to be tracked. You were angry, and the
         victim\u2019s words kept eating at you.\""
       objectReference: {fileID: 0}
@@ -48519,8 +49007,8 @@ PrefabInstance:
     - target: {fileID: 1515836610956648182, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: storyText
       value: '"You avoided talking about the bridge because you knew what happened
-        there, Ash. You met the victim that night to try to end things, but they
-        wanted more from you than you could give!"'
+        there, {color=#671EFF}Ash{/color}. You met the victim that night to try to
+        end things, but they wanted more from you than you could give!"'
       objectReference: {fileID: 0}
     - target: {fileID: 1525230623837126030, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: nodeRect.x
@@ -48928,8 +49416,9 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 2951671055456014651, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: storyText
-      value: '"Vivi, typically streams are logged somewhere on the streaming site.
-        Do you have any logs from that night we could take a look at?"'
+      value: '"{color=#06FF00}Vivi{/color}, typically streams are logged somewhere
+        on the streaming site. Do you have any logs from that night we could take
+        a look at?"'
       objectReference: {fileID: 0}
     - target: {fileID: 2983272579803441605, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: targetBlock
@@ -49154,11 +49643,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3608305680891853803, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: blockViewHeight
-      value: 506
+      value: 372
       objectReference: {fileID: 0}
     - target: {fileID: 3608305680891853803, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: selectedBlocks.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3608305680891853803, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: selectedCommands.Array.size
@@ -49656,7 +50145,7 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 5735750432065962720, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: storyText
-      value: "\"You didn\u2019t just log off when your stream cut out, Vivi\u2014you
+      value: "\"You didn\u2019t just log off when your stream cut out, {color=#06FF00}Viv{/color}i\u2014you
         left. You went to confront the victim after they insulted your passion, and
         things got heated.\""
       objectReference: {fileID: 0}
@@ -49670,8 +50159,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 5844275762122600869, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: storyText
-      value: '"Vivi, I know it''s been a long day, for the both of us... but I have
-        one last set of questions for you."'
+      value: '"{color=#06FF00}Vivi{/color}, I know it''s been a long day, for the
+        both of us... but I have one last set of questions for you."'
       objectReference: {fileID: 0}
     - target: {fileID: 5863549623057995935, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: nodeRect.x
@@ -49792,8 +50281,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 6233198420784929591, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: storyText
-      value: '"Your alibi is thin, Jace. Did you have your phone on you during that
-        drive?"'
+      value: '"Your alibi is thin, {color=#FF6F1E}Jace{/color}. Did you have your
+        phone on you during that drive?"'
       objectReference: {fileID: 0}
     - target: {fileID: 6273412811690476552, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: character
@@ -49917,8 +50406,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 6476889192058509412, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: storyText
-      value: '"Ash? I know it''s been a long day but we are getting close to the
-        end, just one last set of questions."'
+      value: '"{color=#671EFF}Ash{/color}? I know it''s been a long day but we are
+        getting close to the end, just one last set of questions."'
       objectReference: {fileID: 0}
     - target: {fileID: 6569787193931806381, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: portrait
@@ -49968,8 +50457,8 @@ PrefabInstance:
       objectReference: {fileID: 1458103828}
     - target: {fileID: 7079912263647354510, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: storyText
-      value: "\"Suspect Arrested in Riverdale Park Murder Case, Awaits Trial - Toronto
-        Star\r\"\n"
+      value: "\"{i}Suspect Arrested in Riverdale Park Murder Case, Awaits Trial -
+        Toronto Star\r\"\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7085628968792974999, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: useCustomTint
@@ -50423,8 +50912,8 @@ PrefabInstance:
       objectReference: {fileID: 868815119}
     - target: {fileID: 8117145411908911126, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: storyText
-      value: '"You know what? Nevermind, let''s get back on track Vivi. Just a few
-        more questions like I said. Now..."'
+      value: '"You know what? Nevermind, let''s get back on track {color=#06FF00}Vivi{/color}.
+        Just a few more questions like I said. Now..."'
       objectReference: {fileID: 0}
     - target: {fileID: 8227234186092992084, guid: 67b8df1e7305ebf4c947a52a54b4e1a3, type: 3}
       propertyPath: text
@@ -52276,7 +52765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 690
   indentLevel: 0
-  storyText: The next day...
+  storyText: '{i}The next day...'
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
@@ -53398,7 +53887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 698
   indentLevel: 0
-  storyText: The next day...
+  storyText: '{i}The next day...'
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
@@ -54854,8 +55343,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 764
   indentLevel: 0
-  storyText: You treat yourself to some Timmies for coffee and donuts, and head back
-    to the department.
+  storyText: '{i}You treat yourself to some Timmies for coffee and donuts, and head
+    back to the department.'
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
@@ -54882,8 +55371,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 763
   indentLevel: 0
-  storyText: Great work, detective! You pieced this together really well. This won't
-    bring the victim back, but hopfully their family finds some peace.
+  storyText: '{i}Great work, detective! You pieced this together really well. This
+    won''t bring the victim back, but hopfully their family finds some peace.'
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
@@ -54910,7 +55399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 762
   indentLevel: 0
-  storyText: The murderer got away with it. You'll have to live with that.
+  storyText: '{i}The murderer got away with it. You''ll have to live with that.'
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
@@ -54937,8 +55426,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 761
   indentLevel: 0
-  storyText: You may not have caught the murderer this time, but at least someone
-    isn't locked up unjustly.
+  storyText: '{i}You may not have caught the murderer this time, but at least someone
+    isn''t locked up unjustly.'
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
@@ -54965,7 +55454,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 760
   indentLevel: 0
-  storyText: You'll have plenty of time to think about it while on your leave.
+  storyText: '{i}You''ll have plenty of time to think about it while on your leave.'
   description: 
   character: {fileID: 1458103828}
   portrait: {fileID: 0}
